@@ -73,12 +73,11 @@ Replace `ImageEditor.js` with the name of the file that contains your program's 
 11. To compile your program, run the terminal command `npm run build`. To run your program, run the terminal command `npm run start` (add any additional command-line parameters you want to pass to the program).
 
 12. You can also use VS Code to compile, run, and debug your program by creating a run configuration in VS Code, as follows:
-
-a. In VS Code, in the file tree on the left, select the name of the `.ts` file that contains your program's entry point (e.g., `ImageEditor.ts`)
-
-b. Select the `Run -> Add Configuration...` menu option
-
-c. Select `Node.js: Launch Program` as the configuration type
+<ol type="a">
+     <li>In VS Code, in the file tree on the left, select the name of the `.ts` file that contains your program's entry point (e.g., `ImageEditor.ts`)</li>
+     <li>Select the `Run -> Add Configuration...` menu option</li>
+     <li>Select `Node.js: Launch Program` as the configuration type</li>
+   </ol>
 
 This will create a run configuration file named `launch.json` that will enable you to run or debug your program in VS Code. In this file you can also specify command-line arguments VS Code should use when running or debugging your program, by adding the following line inside `"configurations"` in your `launch.json` file:
 
@@ -88,10 +87,10 @@ Having created a run configuration, you can compile your program in VS Code by s
 
 More details on configuring VS Code as a TypeScript development environment can be found [HERE](https://code.visualstudio.com/docs/typescript/typescript-tutorial).
 
-Submission
+## Submission
 When you are confident that your TypeScript Image Editor is working, submit the following files on Canvas:
 
-Your TypeScript source files
-Your `package.json` file
-Your `tsconfig.json` file
-Please submit individual files, not a zip file. This will make it easier to grade your work.
+- [ ] Your TypeScript source files
+- [ ] Your `package.json` file
+- [ ] Your `tsconfig.json` file
+- [ ] Please submit individual files, not a zip file. This will make it easier to grade your work.
