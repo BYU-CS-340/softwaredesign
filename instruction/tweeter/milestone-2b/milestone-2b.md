@@ -2,4 +2,4 @@
 
 ## Pre-class preparation
   
-Read the [Milestone 2B: Remove Code Duplication](../../../tweeter/milestone-2b/milestone-2b.md) specification.
+Read the [Milestone 2B: Remove Code Duplication](/tweeter/milestone-2b/milestone-2b.md) specification.
