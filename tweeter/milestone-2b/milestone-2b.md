@@ -2,7 +2,7 @@
   
 For this milestone you will continue to work on the Tweeter UI. The starting point for this milestone is the code you ended up with after completing milestone 2A.
 
-# Requirements
+## Requirements
 
 While modifying your code to a proper layered architecture in milestone 2A, you probably noticed a significant amount of code duplication, especially in your presenter layer. Your task for this assignment is to remove all significant code duplication in the client code. You are to use the following programming techniques to remove code duplication:
 
@@ -50,8 +50,10 @@ Most of the view layer duplication was eliminated as part of the milestone 1 ass
 
 ## Rubric
 
-- (25) Code Duplication
-  - (15) Used appropriate deduplication techniques (i.e. template method, generics, functions as parameters, etc.)
+- (10) Understanding of Deduplication Techniques
+  - (10) Can identify, explain, and justify deduplication techniques in context (i.e. template method, generics, functions as parameters)
+- (15) Removing Code Duplication
+  - (5) Used deduplication techniques appropriately
   - (10) Code is generally free of duplication
 
 ## [Milestone 2 FAQ](../milestone-2a/milestone-2-faq.md)
