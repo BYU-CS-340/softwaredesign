@@ -2,18 +2,22 @@
   
 For this milestone you will continue to work on the Tweeter UI. The starting point for this milestone is the code you ended up with after completing milestone 2A.
 
-# Requirements
+## Requirements
 
 While modifying your code to a proper layered architecture in milestone 2A, you probably noticed a significant amount of code duplication, especially in your presenter layer. Your task for this assignment is to remove all significant code duplication in the client code. You are to use the following programming techniques to remove code duplication:
 
-- Inheritance (including but not limited to the template method pattern)
-- Composition/Delegation
+- Inheritance
+- Template method pattern
+- Composition/delegation
 - Generic types
 - Passing functions as parameters
 - React component creation (applicable to the view layer only)
 - React Hook creation (applicable to the view layer only)
 
 **Note:** Because of the hooks you already created for milestone 1, you likely will not need to create additional hooks for this milestone, but that is a technique that can be used to eliminate code duplication in the view layer.
+
+> [!IMPORTANT]
+> Part of the pass-off for this milestone will involve identifying and explaining some of these patterns in your code, so make sure you understand them, including how and why they are used. You do not necessarily need all of them, but you will need to be able to justify your decisions.
 
 ## Detailed Instructions
 
@@ -50,8 +54,10 @@ Most of the view layer duplication was eliminated as part of the milestone 1 ass
 
 ## Rubric
 
-- (25) Code Duplication
-  - (15) Used appropriate deduplication techniques (i.e. template method, generics, functions as parameters, etc.)
+- (10) Understanding of Deduplication Techniques
+  - (10) Can identify, explain, and justify deduplication techniques in context (i.e. template method, generics, functions as parameters)
+- (15) Removing Code Duplication
+  - (5) Used deduplication techniques appropriately
   - (10) Code is generally free of duplication
 
 ## [Milestone 2 FAQ](../milestone-2a/milestone-2-faq.md)
