@@ -9,7 +9,7 @@ You have already configured your AWS credentials on your computer.  This should 
 ## Steps
 
 - Create a new typescript project for this exercise
-    - **Note:** You can follow these instructions to setup a standalone TypeScript project
+    - **Note:** You can follow [these instructions]([url](https://github.com/BYU-CS-340/softwaredesign/blob/main/instruction/typescript-fundamentals-1/standalone-typescript-project-setup-instructions.md)) to setup a standalone TypeScript project
 - Install the AWS S3 SDK Client
     - Run `npm install @aws-sdk/client-s3`
     - Run `npm install @types/aws-sdk --save-dev`
