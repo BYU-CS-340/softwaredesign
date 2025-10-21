@@ -4,7 +4,7 @@
     - Thursday, March 6th 8:00 am - Tuesday, March 11th.
         - Checkout closes at 7 pm on March 11th with tests collected at 10 pm
     - Late fees start on Monday, March 10th at 4 pm
-- 20 Questions: 6 T/F, 9 M/C and 5 open-ended essay questions
+- Question types: T/F, M/C and open-ended essay questions
     - Enter T/F and M/C answers on bubble sheet
     - Write open-ended essay answers on the exam 
 - No time limit. Give yourself 2 - 3 hours, although some students will finish in closer to one hour
