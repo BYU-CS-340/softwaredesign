@@ -1,9 +1,9 @@
 # MIDTERM - Preparation Help
 
 - Taken in the testing center
-    - Thursday, March 6th 8:00 am - Tuesday, March 11th.
-        - Checkout closes at 7 pm on March 11th with tests collected at 10 pm
-    - Late fees start on Monday, March 10th at 4 pm
+    - Tuesday, October 28th 8:00 am - Friday, October 31st.
+        - Checkout closes at 7 pm on October 31st with tests collected at 10 pm
+    - Late fees start on Friday, October 31st at 8:00 am
 - Question types: T/F, M/C and open-ended essay questions
     - Enter T/F and M/C answers on bubble sheet
     - Write open-ended essay answers on the exam 
