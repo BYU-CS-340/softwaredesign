@@ -4,7 +4,7 @@
 
 This question is about the code involved in **getting and displaying a user's story**. For **Milestone 2 Part A** you were asked to redesign your Tweeter UI code (including the "user story" code) based on the MVP pattern. Please answer the following and provide a simple **UML class diagram** and a simple **UML sequence diagram** to support your answers:
 
-1. Which types (classes, interfaces, react components) play each of the key roles in the pattern (model, view, presenter)? How are those types related in your design and how was the observer design pattern used?
+1. Which types (classes, interfaces, react components) play each of the key roles in the pattern (model, view, presenter)? How are those types related in your design, and how do they avoid breaking the dependency-rule of layered architectures?
 1. In brief what are 2 or 3 reasons why the MVP pattern is an effective choice for your design? You may want to refer to your diagram to support your reasoning.
 
 *Notes about the UML diagrams.* The diagrams should reflect your Tweeter code (rather than say a generic diagram of the MVP pattern). Include only the class/interfaces, attributes, operations and relationships needed to support your answers. Recall that UML class diagrams are organized around classes (and interfaces) and illustrate their structural relationships, while sequence diagrams are organized around objects and illustrate sequences of method calls between those objects. 
