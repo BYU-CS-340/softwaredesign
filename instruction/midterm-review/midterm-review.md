@@ -18,7 +18,7 @@
 
 Topic: Typescript
 - Review the key concepts covered in class about Typescript.
-- Understand the basic syntax.
+- Understand the basic syntax, including generic types.
 - Focus on how Typescript handles data types (variable and function types).
 
 Topic: React.js (as an approach to UI programming)
