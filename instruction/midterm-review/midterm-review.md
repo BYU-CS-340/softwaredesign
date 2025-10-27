@@ -94,4 +94,4 @@ Topic: Template-Method Pattern
 
 Topic: AWS console, CLI and SDK
 
-Topic: Lambda, API Gateway (and IAM)
+Topic: Lambda (and IAM)
