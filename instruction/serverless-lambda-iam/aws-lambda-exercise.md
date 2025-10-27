@@ -38,8 +38,8 @@ The AWS credentials are configured on the computer.  This should have been done 
 - Transpile the code using tsc.
     1. Run `npm install` to install the dependencies referenced in package.json
     1. We already created a build script in package.json so you can transpile by running `npm run build`
-- Zip the transpiled code.
-    1. (Optional): To exclude the parent directory, zip the contents of the dist folder rather than the dist folder
+- Zip the transpiled code, which will be in a folder called dist.
+    1. Warning: To exclude the parent directory, zip the contents of the dist folder rather than the dist folder.
 - Next, deploy the Lambda function.
     1. Login to the AWS console
     1. Navigate to the Lambda service
