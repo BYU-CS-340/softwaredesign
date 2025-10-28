@@ -221,6 +221,7 @@ The Lambda/IAM exercise has been completed.
     - Click "Export"
     - Click "Export as Swagger"
     - Select either JSON or YAML
+    - Select "Export with API Gateway extensions"
     - The file should be generated and displayed in the browser.
 
 ## Submission
