@@ -28,7 +28,7 @@ The AWS credentials are configured on the computer.  This should have been done 
     1. Navigate to the IAM service
     1. On the left of the IAM service screen, select “Roles”
     1. Click the “Create role” button
-    1. When asked to “Select type of trusted entity”, select “AWS Services”, and under "Choose the service that will use this role", select "Lambda" and click the Next button
+    1. When asked to “Select type of trusted entity”, select “AWS Service”, and under "Use case", select "Lambda" as the 'Service or use case' and click the Next button
     1. On the “Attach permissions policies” screen, attach the AmazonSESFullAccess policy to your role.  This will allow your Lambda function to send emails using the SES service.  You can find the AmazonSESFullAccess role by entering “SES” in the search field. 
     1. Also attach the CloudWatchLogsFullAccess policy to your role.  This will allow your Lambda function to log messages using the AWS CloudWatch service.  After doing that, click the Next button.
     1. Skip the “Add tags” screen by clicking the Next button
