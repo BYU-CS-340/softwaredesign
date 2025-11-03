@@ -12,7 +12,7 @@
         - **Note:** Make all three parameters optional
     - A method that saves the object’s state to a file: save(fileName)
         - **Note:** Use `JSON.stringify` to convert the array to a Json string before saving it to the file.
-        - **Note:** To save a string to a file, first import the fs package (`import * as fs from \'fs\'`) then use the `fs.writeFileSync` method.
+        - **Note:** To save a string to a file, first import the fs package (`import * as fs from 'fs'`) then use the `fs.writeFileSync` method.
     - A method that loads the object’s state from a file: load(fileName)
         - **Note:** Use `JSON.parse` to convert the file contents back to a 2d array.
         - **Note:** To read text from a file, use the `fs.readFileSync` method, specifying 'utf-8' as the second paramter.
