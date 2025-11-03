@@ -20,7 +20,7 @@
 1. Write a proxy class that implements lazy loading for your 2-D array class.
     - What is lazy loading?  Suppose you have an object stored in a file or database. If the object is large, it will be time-consuming to load, and you might not want to incur the expense of loading the object into RAM until the program actually uses the object. This way, if the program never uses the object, you will not waste time loading it.
     - An elegant way to implement this idea is with the Proxy pattern.
-        1. Create a proxy that implements the same interface as the large object (Array2D)
+        1. Create a proxy class that implements the same interface as the large object (Array2D)
         1. The proxy class should also have a constructor that accepts the name of the file that stores the object
         1. When the program begins, create a proxy object that represents the large object.  Initially, the proxy will contain a null reference to the “real object”, because it hasn’t been loaded yet.
         1. The first time a method is called on the proxy, it should load the large object from the file into RAM, and store a reference to the loaded object.
