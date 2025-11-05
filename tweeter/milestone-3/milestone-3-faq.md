@@ -148,34 +148,4 @@ If these don't fix your issue, feel free to speak with a TA.
 
 ### Do I have to re-upload my code to each lambda every time I make a change to my server?
 
-Yes, but you can use a command line script to make this easier as long as you have the AWS CLI setup. The command
-
-```
-aws lambda update-function-code --function-name INSERT_FUNCTION_NAME --zip-file fileb:///path/to/project/server/dist/typescript-complete.zip
-```
-
-updates the named lambda's code with typescript-complete.zip. You can run this for each lambda, or write a script that runs it for all your lambdas
-
-```
-#!/bin/bash
-arr=(
-        "getfollowing"
-        "getfollowers"
-        "getstory"
-        "login"
-        ...etc
-    )
-for FUNCTION_NAME in "${arr[@]}"
-do
-  aws lambda update-function-code --function-name $FUNCTION_NAME --zip-file fileb:///path/to/project/server/build/libs/server-all.jar &
-done
-```
-
-<!-- WE NEED A NEW DIAGRAM FOR THIS -->
-<!-- ## <a name="sequence-diagram"><a>M3 Sequence Diagram
-
-### How do I show X on the diagram? How do I show the Client Communicator calls API Gateway, which then calls AWS Lambda, which then invokes a handler?
-
-We've made an [example diagram for you here](https://byu.instructure.com/courses/31533/files?preview=5765201)!
-
-Be aware, this diagram is based on a java implementation, which uses Callback functions extensively. If your code does not use callback functions it will look differently from this one. -->
+It does need to happen, but you don't have to do it manually. See [Automating AWS Resource Management](./automating-aws-resource-management.md) for details.

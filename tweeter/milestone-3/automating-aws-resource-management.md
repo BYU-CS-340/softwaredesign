@@ -2,13 +2,9 @@
 
 The Tweeter project uses a variety of AWS resources including Lambda functions, API Gateway endpoints, DynamoDB tables, and SQS queues (~35 resources in all). Creating and configuring these resources manually through the AWS web console is tedious and error-prone. Compounding the problem is that the configurations of these resources will likely change over the course of the project, requiring you to manually re-configure resources multiple times. Fortunately, AWS provides tools to automate creating and configuring resources so you don't have to do it manually.
 
-## AWS CLI and Shell Scripts
-
-One approach to automating these tasks is to use the AWS CLI. The CLI provides commands for creating, updating, and deleting all types of AWS resources. You can write shell scripts that call the CLI to manage your resources. For example, in Tweeter you will have ~16 Lambda functions. Each time you modify your server code you will need to upload the new code to all 16 of your Lambdas. Obviously, doing this manually would be extremely tedious. Alternatively, you could write a shell script that automatically uploads your modified server code to each Lambda. An example of doing this is the [Server Scripts](./server-scripts.md) we provide for uploading Lambda code. You could also write similar scripts for managing API Gateway endpoints, DynamoDB tables, and SQS queues.
-
 ## AWS SAM
 
-Another automation strategy is to use "configuration as code". With this approach you create a text file describing your project's AWS resources and their configurations (typically a JSON or YAML file). AWS provides tools such as CloudFormation and Serverless Application Model (SAM) that can take your configuration file and automatically create, update, and delete resources as needed to match the desired configuration. This way, you don't have to write shell scripts. You just need to describe the resources you want in a file and run a tool to "make it so". You can apply your configuration as often as needed as your project evolves. Here is an [example SAM configuration file](./example-template.md). This file creates a DynamoDB table, an SQS queue, a Lambda function connected to an API Gateway endpoint, and a Lambda function connected to the SQS queue. To create and/or update your resources, just run the `sam` CLI passing it your configuration file.
+One automation strategy is to use "configuration as code". With this approach you create a text file describing your project's AWS resources and their configurations (typically a JSON or YAML file). AWS provides tools such as CloudFormation and Serverless Application Model (SAM) that can take your configuration file and automatically create, update, and delete resources as needed to match the desired configuration. This way, all you need to do is describe the resources you want in a file and run a tool to "make it so". You can apply your configuration as often as needed as your project evolves. Here is an [example SAM configuration file](./example-template.md). This file creates a DynamoDB table, an SQS queue, a Lambda function connected to an API Gateway endpoint, and a Lambda function connected to the SQS queue. To create and/or update your resources, just run the `sam` CLI passing it your configuration file.
 
 ## Tweeter + SAM
 
@@ -31,3 +27,7 @@ With SAM it is possible to do the Tweeter project without ever manually creating
         - `sam deploy`
         - SAM will automatically create, modify, and delete resources as needed to produce a configuration matching your `template.yaml` file.
 1. That's it.
+
+## AWS CLI and Shell Scripts
+
+A middle-ground between automating with SAM, and managing resources manually, is to use the AWS CLI. The CLI provides commands for creating, updating, and deleting all types of AWS resources. You can write shell scripts that call the CLI to manage your resources. For example, in Tweeter you will have ~16 Lambda functions. Each time you modify your server code you will need to upload the new code to all 16 of your Lambdas. Obviously, doing this manually would be extremely tedious. Alternatively, you could write a shell script that automatically uploads your modified server code to each Lambda. An example of doing this is the [Server Scripts](./server-scripts.md) we provide for uploading Lambda code. You could also write similar scripts for managing API Gateway endpoints, DynamoDB tables, and SQS queues.
