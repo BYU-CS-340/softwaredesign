@@ -12,6 +12,10 @@ You will also write some integration tests as part of this milestone. We recomme
 
 When you are through, you should not be accessing dummy data directly from your client (your lambdas will be returning the dummy data through the Web API instead), and each of your service class methods should be accessing an API endpoint.
 
+### Resource management
+
+Since there are 14 lambdas in this milestone (and 16 in milestone 4B), manually deploying them each time you create or update one will become tedious. In general, manually creating and configuring resources through the AWS web console is tedious and error-prone. Therefore, we recommend that you automate these tasks as described in [Automating AWS Resource Management](./automating-aws-resource-management.md). Doing so will be educational and save you a lot of time.
+
 ## Design and Implementation
 
 Although you should work iteratively, one feature at a time, we describe each of the major steps in separate sections below.
@@ -53,9 +57,7 @@ By the end of the next milestone (milestone 4A), your implementation is to meet 
 
 Test each lambda from within the AWS console before connecting it to an API endpoint.
 
-[This video](https://youtu.be/jBSdQYGKCVk) demonstrates how to create, deploy, and test one of your lambdas.
-
-Since there are 14 lambdas in this milestone (and 16 in milestone 4B), manually deploying them each time you create or update one will become tedious. In general, manually creating and configuring resources through the AWS web console is tedious and error-prone. Therefore, we recommend that you automate these tasks as described in [Automating AWS Resource Management](./automating-aws-resource-management.md). Doing so will be educational and save you time.
+How you create your lambdas depends on your [deployment method](#resource-management). [This video](https://youtu.be/jBSdQYGKCVk) demonstrates how to create, deploy, and test one of your lambdas assuming you are using server scripts. If you are using AWS SAM, begin watching at 13:00, and skip past any sections about lambda layers and deployment (around the 58:00 mark).
 
 ## Design and Implement Your Web API
 
@@ -75,19 +77,22 @@ This list includes about half of the necessary endpoints. You will need to figur
 
 When defining your API in the API Gateway, please do the following:
 
-- Provide a description for each API method that you define. To do this:
-  - For each method:
-    - In the Resources tab, select the method.
-    - In the upper right-hand corner of the console, click the "Update Documentation" button.
-    - Edit the description
-    - Click "Save", then "Close"
-  - After your API is completed and you have added a description for each method, go to the Documentation tab on the left-hand panel.
-  - All of your descriptions should be displayed.
-  - In the upper-right-hand corner, click "Publish Documentation"
-  - Select the Stage of the API that you will use.
-  - Input any version number for your documentation.
-  - Click "Publish"
-  - Now, when you export your Swagger file for the API, it will include your descriptions for each method.
+Provide a description for each API method that you define. To do this:
+
+- For each method:
+  - In the Resources tab, select the method.
+  - In the upper right-hand corner of the console, click the "Update Documentation" button.
+  - Edit the description
+  - Click "Save", then "Close"
+- After your API is completed and you have added a description for each method, go to the Documentation tab on the left-hand panel.
+- All of your descriptions should be displayed.
+- In the upper-right-hand corner, click "Publish Documentation"
+- Select the Stage of the API that you will use.
+- Input any version number for your documentation.
+- Click "Publish"
+- Now, when you export your Swagger file for the API, it will include your descriptions for each method.
+
+Configure each endpoint. If you are using SAM, this is already done (although the video may still be worth watching, as it explains several useful concepts). If you are using Server Scripts:
 
 - For each method, ensure you have integration responses for the relevant HTTP status codes, 200, 400, and 500. Here is an explanation of how to set up integration responses.
   - **Note:** In milestone 4A you will need to handle Unathorized errors. You can return these as either 400 or 401 errors. If you choose to handle them as 401 errors you should create integration responses for 401 as well. You can also add 401 responses later but it will require you to modify all of you endpoints in API Gateway.
@@ -96,7 +101,7 @@ When defining your API in the API Gateway, please do the following:
 
 Connect each Web API endpoint to one of your lambdas and test each endpoint from API Gateway before attempting to access it from your web application.
 
-[This video](https://youtu.be/OXAgXWiz7e0) shows you how to configure API Gateway. You can also refer to the API Gateway in-class exercise.
+[This video](https://youtu.be/OXAgXWiz7e0) shows you how to configure API Gateway with the AWS Console. You can also refer to the API Gateway in-class exercise.
 
 ## Call Web API Endpoints from Your Client
 
