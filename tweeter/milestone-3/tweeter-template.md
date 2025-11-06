@@ -3,6 +3,7 @@ AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
 Description: SAM config for Tweeter server
 
+
 #
 # Global Lambda function properties. These apply to every Lambda function.
 #
@@ -14,6 +15,7 @@ Globals:
       - !Ref tweeterLayer
     Timeout: 30
     MemorySize: 128
+
 
 #
 # Reusable blocks of configuration. These are referenced throughout the template to avoid duplication.
@@ -35,13 +37,17 @@ Metadata:
     Access-Control-Allow-Origin:
       type: string
 
+
 #
 # AWS resource definitions
 #
 Resources:
+
+
   #
   # Web API
   #
+
   tweeterApi:
     Type: AWS::Serverless::Api
     Properties:
@@ -95,9 +101,11 @@ Resources:
             description: "Internal Server Error"
             headers: *commonSwaggerResponseHeaders
         paths:
+
           #
           # Endpoint definitions
           #
+
           /user/get:
             post:
               consumes: *commonConsumes
@@ -111,6 +119,7 @@ Resources:
                 requestTemplates: *commonRequestTemplates
                 responses: *commonAmazonResponses
               responses: *commonSwaggerResponses
+
           /user/create:
             post:
               consumes: *commonConsumes
@@ -129,14 +138,16 @@ Resources:
             # ADD MORE ENDPOINT DEFINITIONS HERE
             #
 
+
   #
   # SQS Queues
   #
-  
+
   #   MyQueue:
   #     Type: AWS::SQS::Queue
   #     Properties:
   #       QueueName: MyQueue
+
 
   #
   # Lambda Layer (reused by all Lambda functions)
@@ -151,9 +162,11 @@ Resources:
         - nodejs20.x
       RetentionPolicy: DELETE
 
+
   #
   # Web API Lambda functions
   #
+
   userGetFunction:
     Type: AWS::Serverless::Function
     Properties:
@@ -188,6 +201,7 @@ Resources:
   # ADD MORE WEB API LAMBDA DEFINITIONS HERE
   #
 
+
   #
   # SQS Queue Lambda Functions
   #
@@ -204,6 +218,7 @@ Resources:
   #           Properties:
   #             Queue: !GetAtt MyQueue.Arn
   #             Enabled: true
+
 
   #
   # DynamoDB Tables
