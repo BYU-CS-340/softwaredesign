@@ -237,7 +237,10 @@ Resources:
           KeyType: HASH
         - AttributeName: followee_alias
           KeyType: RANGE
-      BillingMode: PAY_PER_REQUEST
+      BillingMode: PROVISIONED
+      ProvisionedThroughput:
+        ReadCapacityUnits: 1
+        WriteCapacityUnits: 1
       GlobalSecondaryIndexes:
         - IndexName: follow_index
           KeySchema:
@@ -245,6 +248,9 @@ Resources:
               KeyType: HASH
             - AttributeName: follower_alias
               KeyType: RANGE
+          ProvisionedThroughput:
+            ReadCapacityUnits: 1
+            WriteCapacityUnits: 1
           Projection:
             ProjectionType: ALL
 
