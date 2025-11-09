@@ -21,7 +21,7 @@ IMPORTANT: Update your IAM user to have DynamoDBFullAccess permissions before be
     1. This Primary Key lets you query the table by “follower_handle” and sort the results by “followee_handle”.
     1. Under 'Table Settings' click 'Customize settings'.
     1. Adjust read & write capacities by turning autoscaling off for each and entering in the desired provisioned capacity units.  These control how fast Dynamo can read/write data to/from your table (you may need to re-adjust these for the project).
-    1. Under 'Secondary indexes' click 'create global index'.
+    1. Under 'Secondary indexes' click 'create global index'. **Note: The Global Secondary Index will swap the keys so you can also query in the opposite direction (finding who follows @bob, instead of who @bob is following).**
     1. Index Partition Key: a string named “followee_handle. This is the same “followee_handle” attribute you created in the previous step.
     1. Index Sort Key: a string named “follower_handle”. This is the same “follower_handle” attribute you created in the previous step.
     1. This Primary Key lets you query the index by “followee_handle” and sort the results by “follower_handle”.
