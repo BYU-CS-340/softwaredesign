@@ -3,36 +3,35 @@
 This document is organized according to what parts of the project you are working on.
 
 ## Table of Contents
-- [M3 Client side functionality](#client-side-functionality)
-    - Registering a new User: How do I pass the image to the server façade? What data type?
-    - How do I stop the first page from loading twice?
-    - JSON.stringify is not a function.
-- [M3 Request and Response Objects](#request-response-objects)
-    - Why are all of the fields in my request/response objects null when run on Lambda?
-    - Some of my fields are null in my request/response objects once they pass API Gateway. I have getters, setters, and a default constructor. What's going on?
-    - The fromJson functions are reading values as undefined or null.
-- [M3 Server-side Functionality](#server-side-functionality)
-    - Do I need to persist any data for Milestone 3?
-    - What should be in my DAOs and what should be in my Services?
-    - Should my services access more than one DAO?
-    - Error: tweeter-shared not found.
-    - Error: Cannot read undefined calling 'split'.
-    - Data sometimes not returned
-- [API Gateway](#api-gateway)
-    - Why isn't API Gateway passing my requests correctly to Lambda?
-    - How do I debug the Gateway?
-    - What kind of documentation do I need to have for each method?
-    - What do I do with a 403 Error?
-- [Lambda](#lambda)
-    - Do I have to re-upload my code to each lambda every time I make a change to my server?
-- [M3 Integration Tests](#integration-tests)
-    - How do I do an integration test for the service layer?
-    - How do I do wait for a response from the server in the service layer test?
+
+- [Milestone 3 FAQ](#milestone-3-faq)
+  - [Table of Contents](#table-of-contents)
+  - [M3 Client Side Functionality](#m3-client-side-functionality)
+    - [Registering a new User: How do I pass the image to the server façade? What data type?](#registering-a-new-user-how-do-i-pass-the-image-to-the-server-façade-what-data-type)
+    - [How do I stop the first page loading twice?](#how-do-i-stop-the-first-page-loading-twice)
+  - [M3 Requests and Response Objects](#m3-requests-and-response-objects)
+    - [Why are all of the fields in my request/response objects null when run on Lambda?](#why-are-all-of-the-fields-in-my-requestresponse-objects-null-when-run-on-lambda)
+    - [Some of my fields are null in my request/response objects once they pass API Gateway. I have getters, setters, and a default constructor. What's going on?](#some-of-my-fields-are-null-in-my-requestresponse-objects-once-they-pass-api-gateway-i-have-getters-setters-and-a-default-constructor-whats-going-on)
+    - [The fromJson functions are reading values as undefined or null](#the-fromjson-functions-are-reading-values-as-undefined-or-null)
+  - [M3 Server-side Functionality](#m3-server-side-functionality)
+    - [Do I need to persist any data for Milestone 3?](#do-i-need-to-persist-any-data-for-milestone-3)
+    - [What should be in my DAOs and what should be in my Services?](#what-should-be-in-my-daos-and-what-should-be-in-my-services)
+    - [Should my services access more than one DAO?](#should-my-services-access-more-than-one-dao)
+    - [Error: tweeter-shared not found](#error-tweeter-shared-not-found)
+    - [Error: cannot read undefined calling 'split'](#error-cannot-read-undefined-calling-split)
+    - [Data sometimes not returned](#data-sometimes-not-returned)
+  - [API Gateway](#api-gateway)
+    - [Why isn't API Gateway passing my requests correctly to Lambda?](#why-isnt-api-gateway-passing-my-requests-correctly-to-lambda)
+    - [How do I debug the Gateway?](#how-do-i-debug-the-gateway)
+    - [What kind of documentation do I need to have for each method?](#what-kind-of-documentation-do-i-need-to-have-for-each-method)
+    - [What do I do with a 403 Error?](#what-do-i-do-with-a-403-error)
+  - [Lambda](#lambda)
+    - [Do I have to re-upload my code to each lambda every time I make a change to my server?](#do-i-have-to-re-upload-my-code-to-each-lambda-every-time-i-make-a-change-to-my-server)
 <!-- WE NEED A NEW DIAGRAM FOR THIS -->
 <!-- - [M3 Sequence Diagram](#sequence-diagram)
     - How do I show X on the diagram? How do I show the Client Communicator calls API Gateway, which then calls AWS Lambda, which then invokes a handler? -->
 
-## <a name="client-side-functionality"></a>M3 Client Side Functionality
+## M3 Client Side Functionality
 
 ### Registering a new User: How do I pass the image to the server façade? What data type?
 
@@ -40,15 +39,13 @@ The starter code for tweeter already transforms the image data into a Base64 enc
 
 ### How do I stop the first page loading twice?
 
-Remove strictmode from the index.ts file. Strictmode is using during development and renders the page twice on the first load, first to run a test on the rendering of the page, and then for the actual page. This runs useEffect twice which then loads the first page twice. I am unsure why this was not a problem in m1 and m2.
+First, make sure that the ClientCommunicator and ServerFacade have .ts extensions and not .tsx extensions.
 
-See the discussion at https://stackoverflow.com/questions/60618844/react-hooks-useeffect-is-called-twice-even-if-an-empty-array-is-used-as-an-arLinks to an external site. for more details. This link also shows some workarounds for keeping strictmode by adding cleanup functions to the useEffect.
+If that's not the issue, remove strictmode from the index.ts file. Strictmode is using during development and renders the page twice on the first load, first to run a test on the rendering of the page, and then for the actual page. This runs useEffect twice which then loads the first page twice.
 
-### How do I stop the first page loading twice?
+See [this discussion](https://stackoverflow.com/questions/60618844/useeffect-is-called-twice-even-if-an-empty-array-is-used-as-an-argument) on StackOverflow for more details. This link also shows some workarounds for keeping strictmode by adding cleanup functions to the useEffect.
 
-Make sure that the ClientCommunicator and ServerFacade have .ts extensions and not .tsx extensions.
-
-## <a name="request-response-objects"></a>M3 Requests and Response Objects
+## M3 Requests and Response Objects
 
 ### Why are all of the fields in my request/response objects null when run on Lambda?
 
@@ -58,7 +55,7 @@ The object will be returned as type json, meaning it will have the same data as 
 
 By far the largest issue here is that AWS does NOT look at your field names when deciding how to serialize things. It will look at the getters and setters to determine the field names. For example, if you have a field called 'feed', a getter called 'getPosts', and a setter called 'setFeed', AWS will use the getter when serializing and create a field called 'posts' in your JSON object. When deserializing, AWS will then look for a method called 'setPosts', which in this example does not exist, and as a result your 'feed' field will be null. Therefore, it is important that your getters and setters have the same field name in their names.
 
-### The fromJson functions are reading values as undefined or null.
+### The fromJson functions are reading values as undefined or null
 
 Make sure that JSON.stringify is not called on a value that is already a string. If an event comes into the server, the event itself will be of type Object, but some of the subfields, such as event.lastUser, may come in unexpectedly as strings even if typescript demands it be of type User. Calling JSON.stringify on event.lastUser will thus make values unavailable to the fromJson function and is difficult to debug since the data looks like it is there correctly but is doubly stringified. The value can be typecast to string by calling (event.lastIUser as unknown as string).
 
@@ -66,7 +63,7 @@ Even if typescript indicates that event.lastUser is of type User, it is not sinc
 
 If JSON.stringify is what is needed in the code, do not call JSON.stringify on a value if it is null. JSON.stringify(null) returns the string "null". If the string "null" is passed into a fromJson function this will break the code. A check will have to be made to only call JSON.stringify if the value is not null. This ternary operation will fix the null problem, event.lastItem ? JSON.stringify(event.lastItem) : null.
 
-## <a name="server-side-functionality"></a>M3 Server-side Functionality
+## M3 Server-side Functionality
 
 ### Do I need to persist any data for Milestone 3?
 
@@ -110,7 +107,7 @@ The forEach function does not wait for awaited functions, even when await is cal
 
 If await is called on a function, but .then is called on the end of the function, then the function will not be awaited. The .then must be removed.
 
-## <a name="api-gateway"></a>API Gateway
+## API Gateway
 
 *See also Requests and Response Objects Section of the FAQ if your issues are about data coming from or going to the client.*
 
@@ -145,40 +142,10 @@ The first one is easily fixed by redeploying the API. The second can be tested b
 
 If these don't fix your issue, feel free to speak with a TA.
 
-## <a name="lambda"></a>Lambda
+## Lambda
 
 *See also Requests and Response Objects Section of the FAQ if your issues are about data coming from or going to the client.*
 
 ### Do I have to re-upload my code to each lambda every time I make a change to my server?
 
-Yes, but you can use a command line script to make this easier as long as you have the AWS CLI setup. The command
-
-```
-aws lambda update-function-code --function-name INSERT_FUNCTION_NAME --zip-file fileb:///path/to/project/server/dist/typescript-complete.zip
-```
-
-updates the named lambda's code with typescript-complete.zip. You can run this for each lambda, or write a script that runs it for all your lambdas
-
-```
-#!/bin/bash
-arr=(
-        "getfollowing"
-        "getfollowers"
-        "getstory"
-        "login"
-        ...etc
-    )
-for FUNCTION_NAME in "${arr[@]}"
-do
-  aws lambda update-function-code --function-name $FUNCTION_NAME --zip-file fileb:///path/to/project/server/build/libs/server-all.jar &
-done
-```
-
-<!-- WE NEED A NEW DIAGRAM FOR THIS -->
-<!-- ## <a name="sequence-diagram"><a>M3 Sequence Diagram
-
-### How do I show X on the diagram? How do I show the Client Communicator calls API Gateway, which then calls AWS Lambda, which then invokes a handler?
-
-We've made an [example diagram for you here](https://byu.instructure.com/courses/31533/files?preview=5765201)!
-
-Be aware, this diagram is based on a java implementation, which uses Callback functions extensively. If your code does not use callback functions it will look differently from this one. -->
+It does need to happen, but you don't have to do it manually. See [Automating AWS Resource Management](./automating-aws-resource-management.md) for details.
