@@ -33,7 +33,7 @@ Ensure the code returns some 400 [Bad Request] responses (for example, by throwi
 ## Submission
 
 - Submit to Canvas a zip file containing your project in its current form. If your project is too big to upload to Canvas, you are probably including files that shouldn't be there. Only include files that you would version.
-- Submit to Canvas an exported YAML or JSON swagger file that describes your API.  To do this export, click on your stage, then the export tab. You will see the option to "export as swagger".
+- Submit to Canvas an exported YAML or JSON swagger file that describes your API.  To do this export, click on your stage, then the export tab. You will see the option to "export as swagger" (and select "Export with API Gateway extensions").
 - Submit to Canvas a PDF file containing a UML sequence diagram demonstrating what happens when a user successfully sends a status, including both client and server side objects.
     - Keep in mind that the asynchronous nature shown in the 2C diagram will still be present.
     - Don't forget to include how the API Gateway bridges the gap between your Client and Server objects
