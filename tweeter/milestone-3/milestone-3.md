@@ -247,7 +247,7 @@ Your client's network layer should reference **request** and **response** classe
 
 This section describes the automated tests you are to write.
 
-Make sure you verify that the results are correct, not just that a result is returned. For the purposes of this assignment, you may assume that the server is uing FakeData (i.e. register will return Allen Anderson, getFollowerCount will always be greater than zero, etc.), even if it means your tests will stop working once FakeData is removed.
+Make sure you verify that the results are correct, not just that a result is returned. For the purposes of this assignment, you may assume that the server is using FakeData (i.e. register will return Allen Anderson, getFollowerCount will always be greater than zero, etc.), even if it means your tests will stop working once FakeData is removed.
 
 1. Using the Jest testing framework, write automated INTEGRATION tests to verify that your client-side Server Facade class correctly communicates with your server. Your test code can directly call the ServerFacade class (ie, no need to involve Services or Presenters). The methods of your ServerFacade should be async so your tests will need to await the results of calling ServerFacade methods before testing expectations. Test the following features:
    - Register
