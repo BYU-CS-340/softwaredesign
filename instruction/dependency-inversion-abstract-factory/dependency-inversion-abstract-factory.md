@@ -22,6 +22,4 @@ Dependency Inversion and Abstract Factory Quiz
 
 <!-- [Dependency Inversion Slides](https://docs.google.com/presentation/d/1xS14GJraQ-IYEHKlecBxo1lAdL5LCH_UM6JBLRhEMEE/edit?usp=sharing) -->
 
-[Dependency Inversion + Dependency Injection Slides](./Dependency-Injection.pptx)
-
-[Abstract Factory Slides](./Abstract-factory.pptx)
+[Abstract Factory Slides](https://docs.google.com/presentation/d/1rkH64pEhf354nDjwmPUGOPRoQ1v8vJ7keOynFfHEH8U/)
