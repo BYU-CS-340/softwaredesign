@@ -18,3 +18,7 @@ Command Pattern Quiz
 ## Lecture Slides/Notes/Files
 
 [Command Pattern - Slides](https://docs.google.com/presentation/d/1qToFT15ShrjdgTmmhE-QtcxIZjF-UM2rte2YhILcO9g/edit?usp=drive_link)
+
+[Rodham Command Pattern Slides](./rodham/Command.pptx)
+
+
