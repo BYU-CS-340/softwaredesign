@@ -18,7 +18,7 @@ With SAM it is possible to do the Tweeter project without ever manually creating
 1. Copy the `tweeter-server/node_modules` directory into the `tweeter-server/layer/nodejs` directory. Be sure to copy the `node_modules` directory itself, not just its contents.
     - Each time you change `tweeter-server`'s dependencies, you will need to re-copy `tweeter-server/node_modules` into `tweeter-server/layer/nodejs` (i.e., the layer needs to be updated whenever the contents of `node_modules` changes).
 
-### Devleopment with SAM
+### Development with SAM
 
 To add resources (API endpoints and Lambdas, and later, DynamoDB tables and SQS queues), copy the corresponding example code in `template.yaml`, then follow the TODO comments to configure it.
 
