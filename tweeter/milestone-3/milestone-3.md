@@ -245,17 +245,19 @@ Your client's network layer should reference **request** and **response** classe
 
 ## Automated Testing
 
-This section describes the automated tests you are to write:
+This section describes the automated tests you are to write.
+
+Make sure you verify that the results are correct, not just that a result is returned. For the purposes of this assignment, you may assume that the server is using FakeData (i.e. register will return Allen Anderson, getFollowerCount will always be greater than zero, etc.), even if it means your tests will stop working once FakeData is removed.
 
 1. Using the Jest testing framework, write automated INTEGRATION tests to verify that your client-side Server Facade class correctly communicates with your server. Your test code can directly call the ServerFacade class (ie, no need to involve Services or Presenters). The methods of your ServerFacade should be async so your tests will need to await the results of calling ServerFacade methods before testing expectations. Test the following features:
    - Register
    - GetFollowers
    - GetFollowingCount and/or GetFollowersCount
-1. Using the Jest testing framework, write an INTEGRATION test for your client-side Service that returns a user's story pages (i.e., StatusService). Service methods are async so your tests will need to await the results of calling service methods before testing expectations. Your test should test the results of a successful story retrieval.
+2. Using the Jest testing framework, write an INTEGRATION test for your client-side Service that returns a user's story pages (i.e., StatusService). Service methods are async so your tests will need to await the results of calling service methods before testing expectations. Your test should test the results of a successful story retrieval.
 
    **Note:** You do NOT have to write tests for the other outcomes (i.e., failing not because of an exception, failing because of an exception).
 
-1. The tests may throw a 'fetch not defined' error. fetch is called in the ClientCommunicator when contacting the server. To fix this, run `npm install isomorphic-fetch`, then in the top of the test file add `import "isomorphic-fetch"`.
+3. The tests may throw a 'fetch not defined' error. (`fetch` is called in the ClientCommunicator when contacting the server.) To fix this, run `npm install isomorphic-fetch`, then in the top of the test file add `import "isomorphic-fetch"`.
 
 ## Debugging
 

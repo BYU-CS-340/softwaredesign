@@ -45,7 +45,7 @@ For this program there are 14 different kinds of requests the client sends to th
 
 Create a layer of presenter classes for the major components and in some cases hooks in the application. You need a presenter for each component and for each hook that accesses dummy data or has other logic that is not directly related to interacting with the user or rendering the view.
 
-Each presenter class should define a view interface that is used by it's component or hook. This is the method interface through which the presenter will call its view. For example, the view interface should include methods for things such as passing data to the view for display, displaying messages to the user, and enabling/disabling UI controls. See the [demo video](https://youtu.be/S7SSECBlBd0) for examples of what this looks like.
+Each presenter class should define a view interface that is used by its component or hook. This is the method interface through which the presenter will call its view. For example, the view interface should include methods for things such as passing data to the view for display, displaying messages to the user, and enabling/disabling UI controls. See the [demo video](https://youtu.be/S7SSECBlBd0) for examples of what this looks like.
 
 Move all user-interface logic that does not directly display output or receive input from each component or hook into the corresponding Presenter classes. Examples of logic you should move from components and hooks to presenters include:
 
