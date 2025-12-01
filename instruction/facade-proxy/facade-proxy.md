@@ -20,4 +20,5 @@ Facace and Proxy Quiz
 ## Lecture Slides/Notes/Files
 
 [Facade Pattern - Slides](https://docs.google.com/presentation/d/1iUsDhlmn8ML_Whr6DQsbWMpH4iH4W1nrLl0WZrzhOV4/edit?usp=sharing)
+
 [Proxy Pattern - Slides](https://docs.google.com/presentation/d/176jraalkrltIBtRiGMKKxfLGGkGCkzttImnxmVp3dpk/edit?usp=sharing)

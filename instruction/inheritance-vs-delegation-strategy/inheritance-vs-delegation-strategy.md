@@ -16,4 +16,6 @@ Inheritance vs. Delegation & Strategy Pattern Quiz
 
 ## Lecture Slides/Notes/Files
 
+[Inheritance vs. Delegation - Slides](./InheritanceVsDelegation.pptx)
+
 [Strategy Pattern - Slides](https://docs.google.com/presentation/d/1DYY04eRBw2BCBLXUposmXroA1iX51Z6cv1FoMzj3RTI/edit?usp=sharing)
