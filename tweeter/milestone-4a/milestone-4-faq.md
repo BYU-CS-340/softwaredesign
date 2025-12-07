@@ -100,7 +100,7 @@ Permissions -> Object Ownership needs to allow ACLs.
 
 Make sure that your register lambda also has full access to S3 by going to configuration->permissions and viewing the lambda role.
 
-How do I have one user follow another?
+###How do I have one user follow another?
 You could either do this through code that generates two users and sends a follow request with the two new aliases. If you'd rather do this without writing code, you can also register two users, log into one of them, and tag the other user in a new post. Once the post is in the user's story, you can click on the tag to pull up the other user and hit follow. So for example, if you had @userA and @userB, @userA could make a post like this:
 
 "hello @userB"
