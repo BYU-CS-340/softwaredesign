@@ -1,11 +1,11 @@
 # FINAL EXAM - Preparation Help
 
-- Taken in the testing center
+- Taken in the class room during exam week
 - 24 Questions: 8 T/F (worth 2 points each),  11 M/C (worth 4 points each) and 5 open-ended essay questions (worth 8 points each)
-    - Enter T/F and M/C answers on bubble sheet
-    - Write open-ended essay answers on the exam 
-- No time limit. Give yourself 2 - 3 hours
-- Scratch paper is allowed but you must bring your own, have it stamped at the testing center, and turn it in with your exam
+    - Circle T/F and M/C answers in the exam booklet
+    - Write open-ended essay answers in the exam booklet
+- Time limit: 3 hours
+- Scratch paper is allowed but you must bring your own and turn it in with your exam
 - If there is code in a question, it will be in TypeScript. If you are to write code for a response, it is expected to be in TypeScript
 - General preparation tip: review the reading, lecture slides, and exercises we've covered so far
 - Tip: a good way to learn/study design patterns is to focus on:
