@@ -26,6 +26,7 @@ Topic: DynamoDB
 - How does DynamoDB differ from a relational database?
 - Why must a DynamoDB query include a value for the "partition key"?
 - What does a sort key do and when do you need one?
+- What is the purpose of indexes in DynamoDB (particularly, Global Secondary Indexes)?
 
 Topic: Data access object (DAO) pattern
 - How have you used the DAO pattern in your project? What did your interfaces look like?
