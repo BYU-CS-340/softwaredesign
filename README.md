@@ -26,7 +26,7 @@ The content for this course can be accessed using the following links:
 
 - [Instructor Information](teachers/teachers.md) - Instructor contact information
 - [Syllabus](syllabus/syllabus.md) - Course syllabus and policies
-- [Schedule](schedule/schedule-fall-2025.md) - Course schedule
+- [Schedule](schedule/schedule-winter-2026.md) - Course schedule
 - [TAs](tas/tas.md) - TA policies and schedule
 - [Instruction](instruction/instruction.md) - Pre-class preparation, Lecture slides/files/notes/videos, In-class exercises
 - [Image Editor](image-editor/image-editor.md) - Image Editor assignment specification
