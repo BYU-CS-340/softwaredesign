@@ -27,4 +27,3 @@ Asynchronous Messaging and SQS Quiz
     - [Short SQS introduction video](https://youtu.be/B-kFKC6X8_o)
 - Dr. Wilkerson
     - [Movie Ticket Line](./MovieTicketLine.jpg)
-    - [Video: Asynchronous Messaging with SQS](https://youtu.be/rC6DcMBWHmU)
