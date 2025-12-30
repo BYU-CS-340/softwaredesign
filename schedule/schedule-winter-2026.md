@@ -10,7 +10,7 @@
 |      |  4  | Wed Jan 21 | [React Hooks / React State](../instruction/react-hooks-state/react-hooks-state.md)<br/> [Intro to Milestone 1](../instruction/tweeter/milestone-1/milestone-1.md) | React Hooks / React State Quiz<br/> [Image Editor - Convert to TypeScript](../image-editor/image-editor.md) |
 |  4   |  5  | Mon Jan 26 | [Modeling / UML](../instruction/modeling-uml/modeling-uml.md) | Modeling / UML Quiz |
 |      |     | Tue Jan 27 | | [UML Sequence Diagram Exercise](../instruction/modeling-uml/uml-sequence-diagram-exercise.md) |
-|      |  6  | Wed Jan 28 | |[Software Architecture](../instruction/software-architecture/software-architecture.md) | Software Architecture Quiz |
+|      |  6  | Wed Jan 28 |[Software Architecture](../instruction/software-architecture/software-architecture.md) | Software Architecture Quiz |
 |  5   |  7  | Mon Feb 2  |[Patterns Intro / Observer](../instruction/patterns-observer/patterns-observer.md) | Patterns Intro / Observer Quiz<br/> [Observer Exercise](../instruction/patterns-observer/observer-exercise.md) |
 |      |     | Tue Feb 3  | | Milestone 1 AI Quiz<br/> [Milestone 1](../tweeter/milestone-1/milestone-1.md) |
 |      |  8  | Wed Feb 4  | [User Interface Architecture](../instruction/ui-architecture/ui-architecture.md)<br/> [Intro to Milestone 2A](../instruction/tweeter/milestone-2a/milestone-2a.md) | User Interface Architecture Quiz |
