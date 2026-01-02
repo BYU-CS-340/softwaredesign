@@ -28,7 +28,7 @@
 |      | 16  | Wed Mar 4  | [API Gateway](../instruction/api-gateway/api-gateway.md)<br/> [Midterm Review](../instruction/midterm-review/midterm-review.md) | API Gateway Quiz |
 |      |     | Thu Mar 5  | | [API Gateway Exercise](../instruction/api-gateway/api-gateway-exercise.md) |
 |  10  | 17  | Mon Mar 9  | [Intro to Milestone 3](../instruction/tweeter/milestone-3/milestone-3.md) | |
-|      |     | Tue Mar 10 | | [Midterm Exam](../instruction/midterm-exam/midterm-exam.md) |
+|      |     | Tue Mar 10 | | [Midterm Exam](../instruction/midterm-exam/midterm-exam.md) - Testing Center<br/>Mar 5 - Mar 10 |
 |      | 18  | Wed Mar 11 | [Facade and Proxy](../instruction/facade-proxy/facade-proxy.md) | Facade and Proxy Quiz<br/> [Proxy Exercise](../instruction/facade-proxy/proxy-exercise.md) |
 |  11  | 19  | Mon Mar 16 | [Cloud Data Store (DynamoDB)](../instruction/cloud-datastore-dynamodb/cloud-datastore-dynamodb.md) | Cloud Data Store (DynamoDB) Quiz<br/> [DynamoDB Exercise Part 1](../instruction/cloud-datastore-dynamodb/dynamodb-exercise-1.md) |
 |      | 20  | Wed Mar 18 | [Abstracting Dependencies + Adapter Pattern + DAO/DTO Pattern (Pre-class preparation)](../instruction/abstracting-dependencies-adapter-dao/abstracting-dependencies-adapter-dao.md) | Adapter Pattern and DAO/DTO Pattern Quiz<br/> [DynamoDB Exercise Part 2](../instruction/abstracting-dependencies-adapter-dao/dynamodb-exercise-2.md) |
@@ -44,4 +44,4 @@
 |  15  | 27  | Mon Apr 13 | [Final Review](../instruction/final-review/final-review.md)  | |
 |      | 28  | Wed Apr 15 | No Class - Pass off Milestone 4 | Milestone 4B AI Quiz<br/> [Milestone 4B](../tweeter/milestone-4b/milestone-4b.md) |
 |      |     | Thu Apr 16 | | [Course Evaluation](../instruction/course-evaluation/course-evaluation.md) |
-|  16  |     | Tue Apr 21 | | [Final Exam](../instruction/final-exam/final-exam.md) |
+|  16  |     | Tue Apr 22 | | [Final Exam](../instruction/final-exam/final-exam.md) - Testing Center<br/>Apr 17 - Apr 22 |
