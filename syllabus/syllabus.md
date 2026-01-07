@@ -32,7 +32,7 @@ We suggest that you bookmark the link for easy access to the content.
 
 If you find errors in the content then we encourage you to fork the content repository and [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). That way everyone benefits from your work, and you are listed as a contributor on a significant open source project.
 
-##  Prerequisites
+## Prerequisites
 
 Complete CS 260 and CS 240 with a passing grade (C- or better)
 
@@ -63,7 +63,7 @@ Ex: if you lose 20% for being two days late, and another 10% for missing a funct
 3. **For Tweeter Milestones 3 and 4 only**, students may use AI tools without restriction. This includes using AI tools to generate code. However, you are responsible to understand every line of code you submit as if you wrote it yourself. These assignments are still individual assignments. You must do your own work and only submit work that is your own.
 4. With each milestone, students are to submit a statement disclosing any AI tools used in completing the milestone. Naturally, it is important that any AI tool use (disclosed or not) be consistent with numbers 1, 2, and 3 above.
 
-##   Grade Scheme
+## Grade Scheme
 
 The following grading standards will be used in this class:
 
