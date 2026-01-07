@@ -18,17 +18,18 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 
 **_Bold and italic means unavailable._**
 
-|                  |      Monday       |     Tuesday      |        Wednesday         |     Thursday     |     Friday     |
-| :--------------: | :---------------: | :--------------: | :----------------------: | :--------------: | :------------: |
-|  9:00 - 9:59 AM  |       Than        |                  |           Than           |                  |      Than      |
-| 10:00 - 10:59 AM |       Alden       |      Keaton      |          Alden           |      Alden       |      Than      |
-| 11:00 - 11:59 AM |       Alden       | **_Devotional_** |          Alden           |      Alden       |     Keaton     |
-| 12:00 - 12:59 PM |   Than, Daniel    |  Keaton, Alden   |          Daniel          | **_TA Meeting_** | Daniel, Keaton |
-|  1:00 - 1:59 PM  |    👩🏻‍🏫 _Daniel_    |   Than, Keaton   |       👩🏻‍🏫 _Daniel_        |  Daniel, Keaton  | Daniel, Keaton |
-|  2:00 - 2:59 PM  | 👩🏻‍🏫 _Than, Alden_  |      Daniel      | 👩🏻‍🏫 _Than, Alden, Keaton_ |  Daniel, Keaton  |     Keaton     |
-|  3:00 - 3:59 PM  |        👩🏻‍🏫         |      Daniel      |       👩🏻‍🏫 _Keaton_        |      Keaton      |     Daniel     |
-|  4:00 - 4:59 PM  |     👩🏻‍🏫 _Than_     |      Daniel      |       👩🏻‍🏫 _Keaton_        |      Daniel      |     Daniel     |
-|  5:00 - 5:59 PM  |      Daniel       |      Daniel      |          Daniel          |      Daniel      |     Daniel     |
+|                  |      Monday       |     Tuesday      |     Wednesday     | Thursday |      Friday      |
+| :--------------: | :---------------: | :--------------: | :---------------: | :------: | :--------------: |
+|  9:00 - 9:59 AM  |        Ian        |       Ian        |       Alden       |   Ian    |      Keaton      |
+| 10:00 - 10:59 AM |       Than        |      Keaton      |       Than        |  Keaton  |       Than       |
+| 11:00 - 11:59 AM |       Alden       | **_Devotional_** |       Alden       |  Keaton  |       Will       |
+| 12:00 - 12:59 PM |       Will        |      Keaton      |      Keaton       |  Keaton  |       Will       |
+|  1:00 - 1:59 PM  | 👩🏻‍🏫 _Will, Keaton_ |      Alden       | 👩🏻‍🏫 _Will, Keaton_ |  Alden   |       Ian        |
+|  2:00 - 2:59 PM  | 👩🏻‍🏫 _Will, Alden_  |       Ian        | 👩🏻‍🏫 _Will, Alden_  |   Will   |       Ian        |
+|  3:00 - 3:59 PM  | 👩🏻‍🏫 _Will, Alden_  |       Will       | 👩🏻‍🏫 _Will, Alden_  |   Will   | **_TA Meeting_** |
+|  4:00 - 4:59 PM  |  👩🏻‍🏫 _Ian, Will_   |       Will       |  👩🏻‍🏫 _Than, Will_  |   Will   |       Will       |
+|  5:00 - 5:59 PM  |     Ian, Will     |       Than       |    Than, Will     |   Than   |       Than       |
+|  6:00 - 6:59 PM  |      Keaton       |       Than       |       Than        |   Ian    |       Than       |
 
 ### For help during class hours
 
