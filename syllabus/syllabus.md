@@ -61,7 +61,6 @@ Ex: if you lose 20% for being two days late, and another 10% for missing a funct
 1. Students may use AI assistants to support their learning and course objectives. Not all AI generated information (or code, for that matter) is accurate or consistent with what we are teaching in this course. Please do not let uncritical use of AI tools interfere with your learning.
 2. **For In-Class assignments and Tweeter Milestones 1 and 2, students may not submit code that was written by an AI tool** (such as ChatGPT, Copilot, Cursor, Claude Code, Antigravity, or any other AI tool). For these assignments, students should treat AI assistants like they might fellow students or TAs: getting clarifications and explanations is appropriate, but it is crucial for students to do their own work and only submit work that is their own.
 3. **For Tweeter Milestones 3 and 4 only**, students may use AI tools without restriction. This includes using AI tools to generate code. However, you are responsible to understand every line of code you submit as if you wrote it yourself. These assignments are still individual assignments. You must do your own work and only submit work that is your own.
-4. With each milestone, students are to submit a statement disclosing any AI tools used in completing the milestone. Naturally, it is important that any AI tool use (disclosed or not) be consistent with numbers 1, 2, and 3 above.
 
 ##   Grade Scheme
 
