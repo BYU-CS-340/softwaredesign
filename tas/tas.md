@@ -20,7 +20,7 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 
 |                  |      Monday       |     Tuesday      |     Wednesday     | Thursday |      Friday      |
 | :--------------: | :---------------: | :--------------: | :---------------: | :------: | :--------------: |
-|  9:00 - 9:59 AM  |        Ian        |       Ian        |       Alden       |   Ian    |      Keaton      |
+|  9:00 - 9:59 AM  |        Ian *(Starts 9:15)*       |       Ian        |       Alden       |   Ian    |      Keaton      |
 | 10:00 - 10:59 AM |       Than        |      Keaton      |       Than        |  Keaton  |       Than       |
 | 11:00 - 11:59 AM |       Alden       | **_Devotional_** |       Alden       |  Keaton  |       Will       |
 | 12:00 - 12:59 PM |       Will        |      Keaton      |      Keaton       |  Keaton  |       Will       |
