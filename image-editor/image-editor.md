@@ -17,7 +17,7 @@ The files required to complete this assignment are available in a zip file locat
 1. The specification for the CS 240 Image Editor assignment
 2. A Java solution to the CS 240 assignment
 3. Several PPM image files you can use to test your program (i.e., "source images")
-4. Transformed versions of the source images (called "key images") you can use to verify the output of your TypeScript program. These files were created by running the Java implementation on the source images, and are provided for your convenience (you could always re-create them by running the Java version yourself).
+4. Transformed versions of the source images (called "key images") you can use to verify the output of your TypeScript program. These files were created by running the Java implementation on the source images, and are provided for your convenience. You could always re-create them by running the Java version yourself (For motion blur, we used a value of 10 to generate the key images).
 
 PPM image files can be viewed with Adobe Photoshop or free programs such as [GIMP](https://www.gimp.org/downloads/).
 
