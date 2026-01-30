@@ -60,47 +60,8 @@ Alternatively, this can all be done with the App. Once done, you can easily Regi
 
 Make sure your bucket doesn't have a '.' in the bucket name.
 
-### How do I upload my image to S3?
+### How do I have one user follow another?
 
-In order to upload your image string to S3, you will need to convert the string to a byte array and send the request to S3 using a Put Object Request. You can do this using the following code:
-
-```
-  async putImage(
-    fileName: string,
-    imageStringBase64Encoded: string
-  ): Promise<string> {
-    let decodedImageBuffer: Buffer = Buffer.from(
-      imageStringBase64Encoded,
-      "base64"
-    );
-    const s3Params = {
-      Bucket: BUCKET,
-      Key: "image/" + fileName,
-      Body: decodedImageBuffer,
-      ContentType: "image/png",
-      ACL: ObjectCannedACL.public_read,
-    };
-    const c = new PutObjectCommand(s3Params);
-    const client = new S3Client({ region: REGION });
-    try {
-      await client.send(c);
-      return (
-      `https://${BUCKET}.s3.${REGION}.amazonaws.com/image/${fileName}`
-      );
-    } catch (error) {
-      throw Error("s3 put image failed with: " + error);
-    }
-  }
-  ```
-  
-image_string is the string of bytes that should be getting passed to your server code. Swap the name "student-bucket" with your S3 bucket name in both the URL and PutObjectRequest. Swap region-name in the URL with the region your S3 bucket is created in. Additionally, you may need to change a couple of settings in your S3 bucket to get this to work. Ensure the following settings are changed so your S3 bucket has public access:
-
-Permissions -> Block Public Access needs to block nothing.
-Permissions -> Object Ownership needs to allow ACLs.
-
-Make sure that your register lambda also has full access to S3 by going to configuration->permissions and viewing the lambda role.
-
-###How do I have one user follow another?
 You could either do this through code that generates two users and sends a follow request with the two new aliases. If you'd rather do this without writing code, you can also register two users, log into one of them, and tag the other user in a new post. Once the post is in the user's story, you can click on the tag to pull up the other user and hit follow. So for example, if you had @userA and @userB, @userA could make a post like this:
 
 "hello @userB"
