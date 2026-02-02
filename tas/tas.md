@@ -29,7 +29,7 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 |  3:00 - 3:59 PM  | 👩🏻‍🏫 _Will, Alden_  |       Will       | 👩🏻‍🏫 _Will, Alden_  |   Will   | **_TA Meeting_** |
 |  4:00 - 4:59 PM  |  👩🏻‍🏫 _Ian, Will_   |       Will       |  👩🏻‍🏫 _Than, Will_  |   Will   |       Will       |
 |  5:00 - 5:59 PM  |     Ian, Will     |       Than       |    Than, Will     |   Than   |       Than       |
-|  6:00 - 6:59 PM  |      Keaton       |       Than       |       Than        |   Ian    |       Than       |
+|  6:00 - 6:59 PM  |  Keaton (Online)  |       Than       |       Than        |   Ian    |       Than       |
 
 ### For help during class hours
 
