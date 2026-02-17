@@ -31,6 +31,8 @@ Begin by watching this [demo video](https://youtu.be/HrV50fHgcmo) that shows you
 
 Follow the instructions in the video to remove the duplication specifically demonstrated in the video, other duplication mentioned in the video but not removed, and any other significant code duplication that exists in your presenter layer (whether mentioned in the video or not).
 
+This [diagram](/tweeter/milestone-2b/PagedPresentersClassDiagram-M2B.pdf) will help you visualize the presenter structure you should end up with.
+
 Here are some (but maybe not all) specific areas of duplication that need to be addressed:
 
 - Every presenter defines a View interface to communicate with it's component or hook. These View interfaces might have
