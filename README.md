@@ -2,7 +2,7 @@
 
 # BYU **Software Design** `cs340`
 
-![cover](softwaredesigncover.jpg)
+![cover](softwaredesigncover.png)
 
 ## Welcome
 
