@@ -12,6 +12,8 @@ To help you, we have created these three videos that explain and demonstrate how
 
 Your task is to apply the changes demonstrated in the video to your milestone 1 code for the "followee" and "follower" functionality as demonstrated in the videos, and then change the rest of your Tweeter UI to use a Model-View-Presenter architecture. The general principle to follow is that any code that can reasonably be pushed out of the UI / Components and Hooks layer into the presenter or model layer, should be pushed out of the UI layer.
 
+This [diagram](/tweeter/milestone-2a/ClientFolloweesArchitectureDiagram-M2A.pdf) provides a visual representation of the architecture for the Followees functionality you should end up with at the end of this milestone.
+
 **Note:** Learning to work with an unfamiliar code base that you did not write is a critical skill for software engineers. Much of your time will be spent understanding and modifying code written by others.
 
 **Note:** VS Code provides useful refactoring tools under its Refactoring context menu. Using these is optional but highly recommended. VS Code can also be configured with Prettier--a tool that will automatically reformat your code whenever you save a file (if you configure it to reformat on save). This is much easier than reformatting code by hand and will save you time while resulting in better code.

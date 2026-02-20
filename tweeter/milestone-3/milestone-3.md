@@ -16,6 +16,8 @@ When you are through, you should not be accessing dummy data directly from your 
 
 Since there are 14 lambdas in this milestone (and 16 in milestone 4B), manually deploying them each time you create or update one will become tedious. In general, manually creating and configuring resources through the AWS web console is tedious and error-prone. Therefore, we recommend that you automate these tasks as described in [Automating AWS Resource Management](./automating-aws-resource-management.md). Doing so will be educational and save you a lot of time.
 
+This [diagram](/tweeter/milestone-3/ClientFolloweesArchitectureDiagram-M3.pdf) shows what your client architecture should look like when you are through with this milestone, using the followees feature as an example. Compare this to the [milestone 2A diagram](/tweeter/milestone-2a/ClientFolloweesArchitectureDiagram-M2A.pdf) to see the changes. This [diagram](/tweeter/milestone-3/ServerArchitectureDiagram-M3.pdf) shows what your server architecture should look like. 
+
 ## Design and Implementation
 
 Although you should work iteratively, one feature at a time, we describe each of the major steps in separate sections below.

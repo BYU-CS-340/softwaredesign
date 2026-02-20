@@ -26,6 +26,8 @@ To meet these performance requirements you are to do the following:
 1. Use two AWS SQS queues for asynchronously processing feed updates.
 1. Your feed table is to be configured with no more than 100 WCUs.
 
+This [diagram](/tweeter/milestone-4b/PostStatusArchitectureDiagram-M4B.pdf) shows the post status feature architecture that will allow you to meet these requirements. This [diagram](/tweeter/milestone-4b/PostStatusActivityFlowDiagram-M4B.pdf) shows the same information but in the form of an activity/flow diagram.
+
 We will discuss these techniques further in class.
 
 ### Automated Testing
