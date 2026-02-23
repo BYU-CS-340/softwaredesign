@@ -14,7 +14,7 @@ Make sure that your lambdas are only creating a single AmazonDynamoDB client. Fo
 
 *Note that this example is in Java, but you can do something similar in TypeScript.
 
-```
+```typescript
 private AmazonDynamoDB getClientBad()
 {
     client = AmazonDynamoDBClientBuilder.standard()
@@ -34,7 +34,7 @@ private AmazonDynamoDB getClientGood()
 }
 ```
 
-### Cannot read properties of undefined (reading '0') when calling DynamoDB.
+### Cannot read properties of undefined (reading '0') when calling DynamoDB
 
 Sometimes this error happens when getting imports mixed up for client-dynamodb and lib-dynamodb. The error means that the request is malfmormed. lib-dynamodb is a module that depends on client-dynamodb but makes creating queries a little simpler.
 
@@ -91,7 +91,7 @@ The PostHandler just deposits posts in the PostQ, and then lies to the client th
 
 ### Thoroughput exceeded, dynamodb throttled
 
-If there are too many concurrent lambdas, the 100wcu on the feed table may be exceeded. Calculate how many concurrent lambdas there are, and how many items are being written at a time. If there are 100 lambdas batchwriting 25 items at the same time, this may exceed the WCU. 
+If there are too many concurrent lambdas, the 100wcu on the feed table may be exceeded. Calculate how many concurrent lambdas there are, and how many items are being written at a time. If there are 100 lambdas batchwriting 25 items at the same time, this may exceed the WCU.
 
 Note that by default (this setting can be changed in the lambda -> configurating -> Triggers section), one lambda can receive up to 10 messages from the queue. Thus, if 10 messages are sent to the queue each with 1,000 followers, it is possible that only one lambda will be called with all the items.
 
@@ -107,6 +107,6 @@ Even if a function is awaited, there may be somewhere down the line that an asyn
 
 A work-around that might fix it is to wait for a couple of seconds:
 
-```
+```typescript
 await new Promise((f) => setTimeout(f, 2000));
 ```

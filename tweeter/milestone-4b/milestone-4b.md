@@ -1,12 +1,12 @@
 # Project Milestone 4 Part B: Scalable Status Processing
-  
+
 In this milestone you will implement the rest of your server and complete all of the functionality described in the [Course Project](../project-overview/tweeter.md) overview, including the requirements for authentication tokens and the handling of passwords, using DynamoDB to persist data rather than using hard-coded dummy data, and uploading user profile images to S3.
 
 ## Populating Your Database With Test Data
 
-For testing and passing-off, you will need to create ~10,000 test users and add data to your follows table such that you have at least one user with 10,000 or more followers.  To do this, you will need a script that can create the users and add followers to your follows table.  The generated users need not have profile pictures, or they could all have the same profile picture (do whatever makes sense for your implementation).
+For testing and passing-off, you will need to create ~10,000 test users and add data to your follows table such that you have at least one user with 10,000 or more followers. To do this, you will need a script that can create the users and add followers to your follows table. The generated users need not have profile pictures, or they could all have the same profile picture (do whatever makes sense for your implementation).
 
-When you run your script/program to populate your database, you will probably need to temporarily increase the WCU settings on your users and follows tables (e.g., to 200).  Once the test users and followers have been created, decrease the WCU settings on these tables back to their original levels (e.g., to 1 or 5).
+When you run your script/program to populate your database, you will probably need to temporarily increase the WCU settings on your users and follows tables (e.g., to 200). Once the test users and followers have been created, decrease the WCU settings on these tables back to their original levels (e.g., to 1 or 5).
 
 Refer to the [DynamoDB Batch Write Example](../milestone-4a/dynamodb-batch-write-example.md) for help in writing your batch load script.
 
@@ -50,8 +50,8 @@ Ideally, test cases will work as you add features. In Milestone 3, you created t
 ### DynamoDB Provisioned Capacity
 
 - No matter what architecture you develop, your performance will be capped by the capacity you provision for writing to the feed table in DynamoDB.
-- To learn about provisioned capacity for reads (RCUs), read the following: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html#ItemSizeCalculations.ReadsLinks to an external site.
-- To learn about provisioned capacity for writes (WCUs), read the following: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html#ItemSizeCalculations.WritesLinks to an external site.
+- To learn about provisioned capacity for reads (RCUs), read the following: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html#ItemSizeCalculations.Reads
+- To learn about provisioned capacity for writes (WCUs), read the following: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html#ItemSizeCalculations.Writes
 - Batch writes will be more efficient than individual put-items, because you will have fewer network round trips. A batch-write operation is limited to 25 items. If you include 25 items, you will consume 25 write capacity units, as long as each item is no more than 1 KB in size.
 - Updating the feeds when a status is posted by an author that has 10,000 followers will require writing 10,000 items, possibly in 400 batches (10000/25). To write that many items in 120 seconds will require WCU setting of around 10,000/120.
 
@@ -59,9 +59,7 @@ Ideally, test cases will work as you add features. In Milestone 3, you created t
 
 **There may be a small charge associated with this milestone, but to minimize this consider the following:**
 
-- **Turn up the DynamoDB WCUs for your feed table while testing and passing-off, but turn it down otherwise to avoid getting charged for capacity you are not using.  Also, be sure to turn down the WCU settings on your users and follows tables after your test data has been generated (as previously mentioned).**
-<!-- 8/2/2025: Ken Rodham investigated to see if this charge still exists. Apparently, it does not. We should be able to delete this if no problems arise for a semester or two.-->
-<!-- - When a lambda trigger is associated with an SQS queue, AWS regularly polls the queue for new messages so it can call your lambda when new messages arrive.  All of this polling incurs AWS charges. Therefore, when you are not actively testing or passing-off, disconnect your lambdas from your SQS queues (i.e., remove the lambda triggers in the SQS configuration). This will avoid incurring unnecessary charges. -->
+- **Turn up the DynamoDB WCUs for your feed table while testing and passing-off, but turn it down otherwise to avoid getting charged for capacity you are not using. Also, be sure to turn down the WCU settings on your users and follows tables after your test data has been generated (as previously mentioned).**
 
 ## AWS Notes
 

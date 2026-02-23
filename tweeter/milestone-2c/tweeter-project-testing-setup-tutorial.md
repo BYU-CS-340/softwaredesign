@@ -7,7 +7,8 @@ This tutorial will help you setup the Tweeter project to support testing of the 
 ## Dependencies
 
 Several dependencies need to be added to support testing. Run the following commands from within the tweeter-web module/folder to add the required libraries for Jest, Babel, React Testing Library and ts-mockito:
-```
+
+```bash
 npm install --save-dev jest@29.7.0
 
 npm install --save-dev jest-environment-jsdom@29.7.0
@@ -37,15 +38,17 @@ npm install --save-dev @typestrong/ts-mockito@2.7.12
 
 Make the following changes to the package.json file **in the tweeter-web module** (not to the package.json file at the root of your project):
 
-1. Add the following to the scripts section of package.json:
-```
+Add the following to the scripts section of package.json:
+
+```json
 "test": "jest --passWithNoTests"
 ```
+
 **Note:** This and any other element can be added at any location in it's section. If added as the last item, it cannot be followed by a comma. If not added as the last item, it must be followed by a comma.
 
-2. Add the following as a new section to package.json:
+Add the following as a new section to package.json:
 
-```
+```json
 "jest": {
     "verbose": true,
     "testEnvironment": "jsdom",
@@ -65,7 +68,7 @@ Make the following changes to the package.json file **in the tweeter-web module*
 
 Your package.json should look about like this, although you may have different versions of some packages and various other differences:
 
-```
+```json
 {
     "name": "tweeter-web",
     "version": "0.1.0",
@@ -99,20 +102,20 @@ Your package.json should look about like this, although you may have different v
     },
     "eslintConfig": {
         "extends": [
-        "react-app",
-        "react-app/jest"
+            "react-app",
+            "react-app/jest"
         ]
     },
     "browserslist": {
         "production": [
-        ">0.2%",
-        "not dead",
-        "not op_mini all"
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
         ],
         "development": [
-        "last 1 chrome version",
-        "last 1 firefox version",
-        "last 1 safari version"
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
         ]
     },
     "devDependencies": {
@@ -142,12 +145,12 @@ Your package.json should look about like this, although you may have different v
         "\\.(css|less)$": "<rootDir>/test/__mocks__/styleMock.js"
         },
         "testMatch": [
-        "<rootDir>/test/**/*.test.tsx",
-        "<rootDir>/test/**/*.test.ts"
+            "<rootDir>/test/**/*.test.tsx",
+            "<rootDir>/test/**/*.test.ts"
         ],
         "transform": {
-        "^.+\\.tsx?$": "ts-jest",
-        "\\.js$": "babel-jest"
+            "^.+\\.tsx?$": "ts-jest",
+            "\\.js$": "babel-jest"
         }
     }
 }
@@ -157,7 +160,7 @@ Your package.json should look about like this, although you may have different v
 
 Add a babel.config.js file to the tweeter-web module/folder with the following contents:
 
-```
+```javascript
 module.exports = {
     presets: [
         ["@babel/preset-env", { targets: { node: "current" } }],
@@ -171,11 +174,11 @@ module.exports = {
 1. Add a `test` folder to the tweeter-web module (directly under the `tweeter-web` folder)
 1. Add a `__mocks__` folder under the `test` folder
 
-    **Note:** the use of double underscores in the name is a convention to indicate that this is a configuration folder that should not be removed or renamed. You can rename it anything you like as long as you update the reference to it in the `jest` section of `package.json`.
+   **Note:** the use of double underscores in the name is a convention to indicate that this is a configuration folder that should not be removed or renamed. You can rename it anything you like as long as you update the reference to it in the `jest` section of `package.json`.
 
 1. Add a `styleMock.js` file to the `__mocks__` folder with the following contents:
 
-```
+```javascript
 module.exports = {};
 ```
 
@@ -188,7 +191,7 @@ To validate that Jest is configured properly do the following:
 1. Run `npm run build`. Your project should build as before.
 1. Run `npm run test`. You should see output like the following:
 
-```
+```txt
 tweeter-web@0.1.0 test
 jest --passWithNoTests
 

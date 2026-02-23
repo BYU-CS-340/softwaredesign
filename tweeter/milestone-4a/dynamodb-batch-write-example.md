@@ -25,7 +25,7 @@ To write 10,000 users and follows to the database, you need to generate data for
 
 Before running the script, **add a user with alias '@daisy' to be the followee, and make sure @daisy has 'follower_count' and 'followee_count' attributes with values of 0**. The 'follower_count' attribute is referenced by the script. You will receive an error when the script tries to update the count if the attribute does not exist for the followee (@daisy). You could add the user by making an entry directly in the User table, but you will likely want to login as this user for testing too. To ensure that the @daisy user is properly created, we recommend creating it by registering the user through your tweeter client app.
 
-```
+```typescript
 import { FillFollowTableDao } from "./FillFollowTableDao";
 import { FillUserTableDao } from "./FillUserTableDao";
 import { User } from "tweeter-shared";
@@ -45,7 +45,7 @@ const numbFollowsToCreate = numbUsersToCreate;
 const batchSize = 25;
 const aliasList: string[] = Array.from(
   { length: numbUsersToCreate },
-  (_, i) => baseFollowerAlias + (i + 1)
+  (_, i) => baseFollowerAlias + (i + 1),
 );
 
 const fillUserTableDao = new FillUserTableDao();
@@ -63,7 +63,7 @@ async function main() {
   console.log("Increasing the followee's followers count");
   await fillUserTableDao.increaseFollowersCount(
     mainUsername,
-    numbUsersToCreate
+    numbUsersToCreate,
   );
 
   console.log("Done!");
@@ -96,7 +96,7 @@ function createUserList(createdUserCount: number) {
       `${baseFollowerFirstName}_${i}`,
       `${baseFollowerLastName}_${i}`,
       `${baseFollowerAlias}${i}`,
-      followerImageUrl
+      followerImageUrl,
     );
 
     users.push(user);
@@ -108,7 +108,7 @@ function createUserList(createdUserCount: number) {
 async function createFollows(createdFollowsCount: number) {
   const followList = aliasList.slice(
     createdFollowsCount,
-    createdFollowsCount + batchSize
+    createdFollowsCount + batchSize,
   );
 
   await fillFollowTableDao.createFollows(mainUsername, followList);
@@ -131,7 +131,7 @@ Note that there is no code specific to DynamoDB in this script. That is in the D
 
 The above script uses a FillUserTableDao to batch write users to the database and a FillFollowTableDao to batch write follow relationships. Here is the FillUserTableDao:
 
-```
+```typescript
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import {
   DynamoDBDocumentClient,
@@ -170,7 +170,7 @@ export class FillUserTableDao {
       RequestItems: {
         [this.tableName]: this.createPutUserRequestItems(
           userList,
-          hashedPassword
+          hashedPassword,
         ),
       },
     };
@@ -180,14 +180,14 @@ export class FillUserTableDao {
       await this.putUnprocessedItems(resp, params);
     } catch (err) {
       throw new Error(
-        `Error while batch writing users with params: ${params}: \n${err}`
+        `Error while batch writing users with params: ${params}: \n${err}`,
       );
     }
   }
 
   private createPutUserRequestItems(userList: User[], hashedPassword: string) {
     return userList.map((user) =>
-      this.createPutUserRequest(user, hashedPassword)
+      this.createPutUserRequest(user, hashedPassword),
     );
   }
 
@@ -211,7 +211,7 @@ export class FillUserTableDao {
 
   private async putUnprocessedItems(
     resp: BatchWriteCommandOutput,
-    params: BatchWriteCommandInput
+    params: BatchWriteCommandInput,
   ) {
     let delay = 10;
     let attempts = 0;
@@ -235,7 +235,7 @@ export class FillUserTableDao {
       console.log(
         `Attempt ${attempts}. Processing ${
           Object.keys(resp.UnprocessedItems).length
-        } unprocessed users.`
+        } unprocessed users.`,
       );
 
       params.RequestItems = resp.UnprocessedItems;
@@ -265,11 +265,11 @@ export class FillUserTableDao {
     }
   }
 }
-``` 
+```
 
 Here is the FillFollowTableDao:
 
-```
+```typescript
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import {
   BatchWriteCommand,
@@ -297,7 +297,7 @@ export class FillFollowTableDao {
         RequestItems: {
           [this.tableName]: this.createPutFollowRequestItems(
             followeeAlias,
-            followerAliasList
+            followerAliasList,
           ),
         },
       };
@@ -307,7 +307,7 @@ export class FillFollowTableDao {
         await this.putUnprocessedItems(response, params);
       } catch (err) {
         throw new Error(
-          `Error while batch writing follows with params: ${params} \n${err}`
+          `Error while batch writing follows with params: ${params} \n${err}`,
         );
       }
     }
@@ -315,10 +315,10 @@ export class FillFollowTableDao {
 
   private createPutFollowRequestItems(
     followeeAlias: string,
-    followerAliasList: string[]
+    followerAliasList: string[],
   ) {
     return followerAliasList.map((followerAlias) =>
-      this.createPutFollowRequest(followerAlias, followeeAlias)
+      this.createPutFollowRequest(followerAlias, followeeAlias),
     );
   }
 
@@ -361,7 +361,7 @@ export class FillFollowTableDao {
       console.log(
         `Attempt ${attempts}. Processing ${
           Object.keys(resp.UnprocessedItems).length
-        } unprocessed follow items.`
+        } unprocessed follow items.`,
       );
 
       params.RequestItems = resp.UnprocessedItems;

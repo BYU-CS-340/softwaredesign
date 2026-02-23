@@ -34,6 +34,8 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 
 \*Starts 9:15, \*\*Ends 9:30, \*\*\*Starts 11:30
 
+\*Starts 9:15
+
 ### For help during class hours
 
 During class hours, one TA will sometimes be available in the lab, but this is not guranteed. In-class TAs' attention is primarily on the students in class. Pass offs are not guaranteed by in class TA's. If you need help during another section's class time and no one is in the lab, use the #exercies & #milestone channels on our Slack. (The link to join Slack is on [this page](https://github.com/BYU-CS-340/softwaredesign/blob/main/README.md).)

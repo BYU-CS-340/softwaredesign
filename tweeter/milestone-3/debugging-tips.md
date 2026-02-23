@@ -2,14 +2,14 @@
 
 Debugging errors between the client and server can sometimes be difficult without the right tools or information. These tips will provide some starting points for finding the source of any errors related to API calls and your server-side code that's hosted on AWS.
 
-## Tip 1: Run the code on your own machine.
+## Tip 1: Run the code on your own machine
 
 Although your server code will never be run on your own machine in production, you can still manually run it on your own machine, which will give you access to whatever tools are available in your IDE, notably the debugger. Your code can be run in one of two ways:
 
 1. Create unit tests. You will already be creating several tests for Milestone 3. However, these tests only directly run client-side code. It may benefit you to write additional unit tests in your tweeter-server directory that can directly call any back-end handlers or services you wish to test. The tests do not have to be robust. Their biggest benefit will be providing a way to directly run your server-side code.
 1. Run a file that calls the functions you wish to test. Typescript/javascript projects don't need main files; code in files can be directly run from top to bottom. You can create a new file, put any code you wish to run in it, and then run it using `npx ts-node src/my-file.ts` (this will transpile and run the code). For example, to run your LoginHandler, your file can be as simple as this:
 
-```
+```typescript
 import { handler } from "./lambda/LoginHandler";
 
 handler(new LoginRequest("alias", "password"));
@@ -21,7 +21,7 @@ When you get any strange behavior while running your website, or if you get any 
 
 There are three tabs that will benefit you the most:
 
-1. The Console tab will display any messages that have been logged to the console by your code, as well as most exceptions (shown in red). The error messages often provide a helpful stack trace, and you can track all of the console.log() statements you may have written. 
+1. The Console tab will display any messages that have been logged to the console by your code, as well as most exceptions (shown in red). The error messages often provide a helpful stack trace, and you can track all of the console.log() statements you may have written.
 1. The Network tab shows all network requests that have been made by the current page. Sometimes it doesn't begin to track requests until it is opened. When a request is clicked, you will see another list of tabs that display helpful information. The Headers tab shows all outgoing information that was sent, while the Preview or Response tabs shows the response that was returned by the API. Whenever I run into an issue (especially dealing with serialization), I always check the Preview tab on the request and see if a proper response was returned. If so, it narrows down the issue to the front-end code; otherwise, you know the issue is on the back-end.
 1. The Sources tab can be used to set breakpoints and step through your transpiled front-end code. You should see the file structure on the left. You can also hit Ctrl/Command+P to open a file by name. Breakpoints can be set by clicking on the line numbers.
 
@@ -29,7 +29,7 @@ There are three tabs that will benefit you the most:
 
 The Test tab in the lambda console will allow you to test a lambda function directly. Go to the lambda function you wish to test, click on the Test tab, and input the correct json to match the type of request that your function expects. For example, the LoginLambda's json would require something like this:
 
-```
+```json
 {
   "alias": "alias",
   "password": "password"

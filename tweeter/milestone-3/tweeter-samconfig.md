@@ -1,4 +1,4 @@
-```
+```txt
 version = 0.1
 
 [default.deploy.parameters]

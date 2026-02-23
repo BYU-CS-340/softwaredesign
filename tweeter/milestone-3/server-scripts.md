@@ -6,16 +6,16 @@ Before using the scripts you will need to do the following setup in AWS:
 
 1. Create an S3 bucket in the region where you want to deploy your lambdas. Your bucket will need to have a name that is globally unique. Create a folder in the bucket named 'code'.
 1. Create an AWS role using IAM and give it the following permissions:
-    - AmazonS3FullAccess
-    - AWSLambda_FullAccess
-    - CloudWatchLogsFullAccess
-    - AmazonDynamoDBFullAccess
-    - AmazonSQSFullAccess
+   - AmazonS3FullAccess
+   - AWSLambda_FullAccess
+   - CloudWatchLogsFullAccess
+   - AmazonDynamoDBFullAccess
+   - AmazonSQSFullAccess
 1. Create a lambda layer in AWS (in the same region as step 1) containing the dependencies for your lambda code. Follow the instructions in the Lambda in-class exercise.
 
 Now create a .server file at the root of your server module with the following contents:
 
-```
+```txt
 BUCKET='TODO: Enter your bucket name here'
 LAMBDA_ROLE='TODO: Enter the ARN of your lambda role here'
 EDIT_LAMBDALIST='
@@ -27,7 +27,7 @@ LAMBDALAYER_ARN='TODO: Enter the ARN of your lambda layer here'
 
 Replace the TODOs with the appropriate information. You can get the ARNs by navigating to the AWS resources you created above using the AWS console. Here's an example of what a .server file looks like with information for one lambda:
 
-```
+```txt
 BUCKET='my_bucket'
 LAMBDA_ROLE='arn:aws:iam::472934529729:role/tweeter-lambda'
 EDIT_LAMBDALIST='
@@ -42,7 +42,7 @@ LAMBDALAYER_ARN='arn:aws:lambda:us-west-2:2875402752789:layer:tweeterLambdaLayer
 
 The following code is a script that will create/deploy to AWS or update each lambda referenced in your .server file. Create a file named uploadLambdas.sh at the root of your server module and add the following code:
 
-```
+```bash
 #!/bin/bash
 
 # use set -e to terminate the script on error
@@ -107,7 +107,7 @@ If the script does not have executable permissions, set them using `chmod +x upl
 
 Each deployed lambda will need to reference the lambda layer containing the node_modules folder dependencies. Create an updateLayers.sh script for updating the lambda layers with the following code:
 
-```
+```bash
 # Use this file to update the lambda layers for each lambda.
 # First create the new lambda layer, or lambda layer version in aws by uploading the new lambda layer code.
 # Then copy the arn for the lambda layer from aws to the .server LAMBDALAYER_ARN variable.
@@ -129,7 +129,7 @@ do
         continue
     fi
 
-    aws lambda update-function-configuration --function-name "$function_name" --layer "$LAMBDALAYER_ARN" 1>>/dev/null & 
+    aws lambda update-function-configuration --function-name "$function_name" --layer "$LAMBDALAYER_ARN" 1>>/dev/null &
     echo lambda $i, $function_name, updating lambda layer...
     pids[${i-1}]=$!
     ((i=i+1))
