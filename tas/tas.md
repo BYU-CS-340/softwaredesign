@@ -4,7 +4,7 @@
 
 The TA Lab is in TMCB 1160.
 
-Our preferred contact method is via Slack (the join link is on [this page](https://github.com/BYU-CS-340/softwaredesign/blob/main/README.md)). If that doesn't work, cs340ta.byu@gmail.com works as well.
+Our preferred contact method is via Slack (the join link is on [this page](https://github.com/BYU-CS-340/softwaredesign/blob/main/README.md)). If that doesn't work, `cs340ta.byu@gmail.com` works as well.
 
 ## Getting help
 
@@ -18,18 +18,21 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 
 **_Bold and italic means unavailable._**
 
-|                  |      Monday       |     Tuesday      |     Wednesday     | Thursday |      Friday      |
-| :--------------: | :---------------: | :--------------: | :---------------: | :------: | :--------------: |
-|  9:00 - 9:59 AM  |        Ian *(Starts 9:15)*       |       Ian        |       Alden       |   Ian    |      Keaton      |
-| 10:00 - 10:59 AM |       Than        |      Keaton      |       Than        |  Keaton  |       Than       |
-| 11:00 - 11:59 AM |       Alden       | **_Devotional_** |       Alden       |  Keaton  |       Will       |
-| 12:00 - 12:59 PM |       Will        |      Keaton      |      Keaton       |  Keaton  |       Will       |
-|  1:00 - 1:59 PM  | 👩🏻‍🏫 _Will, Keaton_ |      Alden       | 👩🏻‍🏫 _Will, Keaton_ |  Alden   |       Ian        |
-|  2:00 - 2:59 PM  | 👩🏻‍🏫 _Will, Alden_  |       Ian        | 👩🏻‍🏫 _Will, Alden_  |   Will   |       Ian        |
-|  3:00 - 3:59 PM  | 👩🏻‍🏫 _Will, Alden_  |       Will       | 👩🏻‍🏫 _Will, Alden_  |   Will   | **_TA Meeting_** |
-|  4:00 - 4:59 PM  |  👩🏻‍🏫 _Ian, Will_   |       Will       |  👩🏻‍🏫 _Than, Will_  |   Will   |       Will       |
-|  5:00 - 5:59 PM  |     Ian, Will     |       Than       |    Than, Will     |   Than   |       Than       |
-|  6:00 - 6:59 PM  |  Keaton (Online)  |       Than       |       Than        |   Ian    |       Than       |
+|                  |           Monday           |     Tuesday      |         Wednesday          | Thursday |      Friday      |
+| :--------------: | :------------------------: | :--------------: | :------------------------: | :------: | :--------------: |
+|  8:00 - 8:59 AM  |          Tristan           |     Tristan      |          Tristan           | Tristan  |   **_Closed_**   |
+|  9:00 - 9:59 AM  |     Ian,\* Tristan\*\*     |       Ian        |     Alden, Tristan\*\*     |   Ian    |      Keaton      |
+| 10:00 - 10:59 AM |            Than            |      Keaton      |            Than            |  Keaton  |  Than, Tristan   |
+| 11:00 - 11:59 AM |    Alden, Tristan\*\*\*    | **_Devotional_** |    Alden, Tristan\*\*\*    |  Keaton  |  Will, Tristan   |
+| 12:00 - 12:59 PM |       Will, Tristan        |      Keaton      |      Keaton, Tristan       |  Keaton  |       Will       |
+|  1:00 - 1:59 PM  | 👩🏻‍🏫 _Will, Keaton, Tristan_ |      Alden       | 👩🏻‍🏫 _Will, Keaton, Tristan_ |  Alden   |       Ian        |
+|  2:00 - 2:59 PM  | 👩🏻‍🏫 _Will, Alden, Tristan_  |       Ian        | 👩🏻‍🏫 _Will, Alden, Tristan_  |   Will   |       Ian        |
+|  3:00 - 3:59 PM  |      👩🏻‍🏫 _Will, Alden_      |       Will       |      👩🏻‍🏫 _Will, Alden_      |   Will   | **_TA Meeting_** |
+|  4:00 - 4:59 PM  |       👩🏻‍🏫 _Ian, Will_       |       Will       |      👩🏻‍🏫 _Than, Will_       |   Will   |       Will       |
+|  5:00 - 5:59 PM  |         Ian, Will          |       Than       |         Than, Will         |   Than   |       Than       |
+|  6:00 - 6:59 PM  |           Keaton           |       Than       |            Than            |   Ian    |       Than       |
+
+\*Starts 9:15, \*\*Ends 9:30, \*\*\*Starts 11:30
 
 ### For help during class hours
 
