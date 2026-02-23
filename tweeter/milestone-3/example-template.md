@@ -1,5 +1,5 @@
-```
-AWSTemplateFormatVersion: '2010-09-09'
+```yaml
+AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
 Description: SAM app with TypeScript-based Lambdas, API Gateway, SQS, and DynamoDB
 
@@ -11,7 +11,6 @@ Globals:
     Tracing: Active
 
 Resources:
-
   ### DynamoDB Table ###
   MyTable:
     Type: AWS::DynamoDB::Table

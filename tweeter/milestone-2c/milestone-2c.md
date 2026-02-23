@@ -1,5 +1,5 @@
 # Project Milestone 2 Part C: Automated Testing
-  
+
 For this milestone you will write tests to test some of the presenters and some of the components of your Tweeter application. In practice, you should write many more tests than we are requiring in this assignment.
 
 ## Testing Configuration
@@ -30,7 +30,7 @@ Write PostStatusPresenter tests similar to the AppNavbarPresenter tests demonstr
 
 ## Component Tests
 
-Use Jest, ts-mockito  and React Testing Library to write tests for two of your Components: Login and PostStatus. We show you step-by-step how to test Login in [this video](https://youtu.be/ZDRS5fqIemU).
+Use Jest, ts-mockito and React Testing Library to write tests for two of your Components: Login and PostStatus. We show you step-by-step how to test Login in [this video](https://youtu.be/ZDRS5fqIemU).
 
 ### Login Component Test
 
@@ -52,20 +52,23 @@ Write PostStatus component tests similar to the Login component tests demonstrat
 
 **Note:** The PostStatus component uses the userInfoHook and will expect it to return an object containing a current user and an auth token. This will return null when the component is rendered in your test, which will cause the component not to work correctly. To resolve this, you will need to mock the userInfoHook. We've been using ts-mockito for mocking in our tests and Jest as the test runner. However, the easiest way to mock a hook used in a component you are testing, is to use Jest. Here are two simple steps for mocking a hook with Jest:
 
-1. Above your describe function, use Jest to create a mock of the hook like this:
-```
+Above your describe function, use Jest to create a mock of the hook like this:
+
+```typescript
 jest.mock("../../src/components/userInfo/UserInfoHooks", () => ({
   ...jest.requireActual("../../src/components/userInfo/UserInfoHooks"),
   __esModule: true,
   useUserInfo: jest.fn(),
-}));      
+}));
 ```
-1. In a beforeAll function of your test, specify the values the hook returns like this:
-```
+
+In a beforeAll function of your test, specify the values the hook returns like this:
+
+```typescript
 (useUserInfo as jest.Mock).mockReturnValue({
   currentUser: mockUserInstance,
   authToken: mockAuthTokenInstance,
-});      
+});
 ```
 
 ## Milestone Report

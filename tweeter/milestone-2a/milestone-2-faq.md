@@ -1,7 +1,9 @@
 # Milestone 2 FAQ
 
 ## What functionality should my app have for this milestone?
+
 In terms of functionality your app should respond similarly to the video, with the notable exceptions that:
+
 1. You will always log in to the dummy user regardless of the supplied credentials.
 1. If you register a new user you'll still just get the dummy user
 1. When you go to another user's page the Follow button is randomized, pressing it will not be saved, nor will it update counts.
@@ -13,11 +15,11 @@ No, your app should just use hardcoded dummy data.
 
 ## How many presenters should I have?
 
-In MVP generally there is only one presenter per view.  For the course project you should have only one presenter per view (React component or hook). Some components and hooks that deal only with display logic do not need a presenter. In total, you should end with at least 12 presenter classes.
+In MVP generally there is only one presenter per view. For the course project you should have only one presenter per view (React component or hook). Some components and hooks that deal only with display logic do not need a presenter. In total, you should end with at least 12 presenter classes.
 
 ## Can there be more than one presenter per view?
 
-Technically yes, however, in MVP generally there is only one presenter per view.  For the course project you should have only one presenter per view.
+Technically yes, however, in MVP generally there is only one presenter per view. For the course project you should have only one presenter per view.
 
 ## Can I combine a lot of functions into services which have more than one function?
 
@@ -52,13 +54,14 @@ You can ask the TAs specific questions about your UMLs. We cannot do a general r
 This one-minute [video](https://www.youtube.com/shorts/QRA1Xes6VDo) explains how to represent an asynchronous message in a sequence diagram.
 
 ## Can I ask the TAs to look over my architecture?
+
 You can ask the TAs specific questions about your architecture. We cannot do a general review of your architecture.
 
 ## What causes this error: RangeError: Maximum call stack size exceeded?
 
-1. If you have the view variable stored in the base presenter, and then you typecast the Presenter.view to ChildPresenter.View (e.g., AuthenticatePresenter.View), using get View(): {return this._view as AuthenticateView; }, then this error will occur.
-The keyword super should be used to fix this. That is, get View(): {return super.view as AuthenticateView; }
-1. If a private variable is called using a getter instead of the actual variable, this can cause the problem. For example, calling this.lastItem instead of this._lastItem.
+1. If you have the view variable stored in the base presenter, and then you typecast the Presenter.view to ChildPresenter.View (e.g., AuthenticatePresenter.View), using `get View(): {return this._view as AuthenticateView; }`, then this error will occur.
+   The keyword `super` should be used to fix this. That is, `get View(): {return super.view as AuthenticateView; }`
+1. If a private variable is called using a getter instead of the actual variable, this can cause the problem. For example, calling `this.lastItem` instead of `this._lastItem`.
 
 ## What causes this error: TypeError: UserInfoHook_1.userUserInfo.mockReturnValue?
 

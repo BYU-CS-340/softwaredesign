@@ -4,7 +4,7 @@
 
 The TA Lab is in TMCB 1160.
 
-Our preferred contact method is via Slack (the join link is on [this page](https://github.com/BYU-CS-340/softwaredesign/blob/main/README.md)). If that doesn't work, cs340ta.byu@gmail.com works as well.
+Our preferred contact method is via Slack (the join link is on [this page](https://github.com/BYU-CS-340/softwaredesign/blob/main/README.md)). If that doesn't work, `cs340ta.byu@gmail.com` works as well.
 
 ## Getting help
 
@@ -20,7 +20,7 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 
 |                  |      Monday       |     Tuesday      |     Wednesday     | Thursday |      Friday      |
 | :--------------: | :---------------: | :--------------: | :---------------: | :------: | :--------------: |
-|  9:00 - 9:59 AM  |        Ian *(Starts 9:15)*       |       Ian        |       Alden       |   Ian    |      Keaton      |
+|  9:00 - 9:59 AM  |        Ian        |       Ian        |       Alden       |   Ian    |      Keaton      |
 | 10:00 - 10:59 AM |       Than        |      Keaton      |       Than        |  Keaton  |       Than       |
 | 11:00 - 11:59 AM |       Alden       | **_Devotional_** |       Alden       |  Keaton  |       Will       |
 | 12:00 - 12:59 PM |       Will        |      Keaton      |      Keaton       |  Keaton  |       Will       |
@@ -30,6 +30,8 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 |  4:00 - 4:59 PM  |  👩🏻‍🏫 _Ian, Will_   |       Will       |  👩🏻‍🏫 _Than, Will_  |   Will   |       Will       |
 |  5:00 - 5:59 PM  |     Ian, Will     |       Than       |    Than, Will     |   Than   |       Than       |
 |  6:00 - 6:59 PM  |  Keaton (Online)  |       Than       |       Than        |   Ian    |       Than       |
+
+\*Starts 9:15
 
 ### For help during class hours
 
