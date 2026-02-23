@@ -33,7 +33,7 @@ After completing Part A, you should have a fully functional system (client and s
 - To learn about provisioned capacity for reads (RCUs), read the following: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html#ItemSizeCalculations.Reads
 - To learn about provisioned capacity for writes (WCUs), read the following: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html#ItemSizeCalculations.Writes
 - Batch writes will be more efficient than individual put-items, because you will have fewer network round trips. A batch-write operation is limited to 25 items. If you include 25 items, you will consume 25 write capacity units, as long as each item is no more than 1 KB in size.
- 
+
 ### Minimizing AWS charges
 
 There may be a small charge associated with this milestone, but to minimize this consider the following:
@@ -43,6 +43,46 @@ There may be a small charge associated with this milestone, but to minimize this
 ## AWS Notes
 
 [Some gotchas for AWS and tips to avoid getting charged $$$](../project-overview/aws-account.md)
+
+### Uploading images to S3
+
+In order to upload your image string to S3, you will need to convert the string to a byte array and send the request to S3 using a Put Object Request. You can do this using the following code:
+
+```typescript
+  async putImage(
+    fileName: string,
+    imageStringBase64Encoded: string
+  ): Promise<string> {
+    let decodedImageBuffer: Buffer = Buffer.from(
+      imageStringBase64Encoded,
+      "base64"
+    );
+    const s3Params = {
+      Bucket: BUCKET,
+      Key: "image/" + fileName,
+      Body: decodedImageBuffer,
+      ContentType: "image/png",
+      ACL: ObjectCannedACL.public_read,
+    };
+    const c = new PutObjectCommand(s3Params);
+    const client = new S3Client({ region: REGION });
+    try {
+      await client.send(c);
+      return (
+      `https://${BUCKET}.s3.${REGION}.amazonaws.com/image/${fileName}`
+      );
+    } catch (error) {
+      throw Error("s3 put image failed with: " + error);
+    }
+  }
+```
+  
+image_string is the string of bytes that should be getting passed to your server code. Swap the name "student-bucket" with your S3 bucket name in both the URL and PutObjectRequest. Swap region-name in the URL with the region your S3 bucket is created in. Additionally, you may need to change a couple of settings in your S3 bucket to get this to work. Ensure the following settings are changed so your S3 bucket has public access:
+
+Permissions -> Block Public Access needs to block nothing.
+Permissions -> Object Ownership needs to allow ACLs.
+
+Make sure that your register lambda also has full access to S3 by going to configuration->permissions and viewing the lambda role.
 
 ## Passoff
 

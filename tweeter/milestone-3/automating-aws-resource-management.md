@@ -16,7 +16,7 @@ With SAM it is possible to do the Tweeter project without ever manually creating
 1. In the `tweeter-server` directory create a sub-directory named `layer`. `layer` will contain the code for your project's Lambda layer.
 1. Within the `tweeter-server/layer` directory create a sub-directory named `nodejs`.
 1. Copy the `tweeter-server/node_modules` directory into the `tweeter-server/layer/nodejs` directory. Be sure to copy the `node_modules` directory itself, not just its contents.
-    - Each time you change `tweeter-server`'s dependencies, you will need to re-copy `tweeter-server/node_modules` into `tweeter-server/layer/nodejs` (i.e., the layer needs to be updated whenever the contents of `node_modules` changes).
+   - Each time you change `tweeter-server`'s dependencies, you will need to re-copy `tweeter-server/node_modules` into `tweeter-server/layer/nodejs` (i.e., the layer needs to be updated whenever the contents of `node_modules` changes).
 
 ### Development with SAM
 
@@ -30,10 +30,13 @@ When you want to re-deploy your server code to AWS, run the following commands i
 2. Prepare your project for deployment to AWS.
    - `sam build`
 3. Deploy your project to AWS.
-   - `sam deploy`
+   - `sam deploy` (type "y" when prompted)
+   - You shouldn't need to use `--guided`. It may overwrite some of the settings we've provided for you.
    - SAM will automatically create, modify, and delete resources as needed to produce a configuration matching your `template.yaml` file.
-4. If deployment fails, resolve the error. Often this is because your IAM user lacks the right permissions, or something is incorrect in template.yaml.
-   - If you get a "ROLLBACK_UDPATE_COMPLETE" error, go to CloudFormation in the AWS console; click Stacks; and delete the tweeter-server stack that SAM created. You should then be able to redeploy.
+4. If deployment fails, resolve the error. Often, this is because your IAM user lacks the right permissions, or something is incorrect in template.yaml.
+
+[!IMPORTANT]
+> If you get certain errors, such as `ROLLBACK_UDPATE_COMPLETE`, you may need to `sam delete` before you can re-deploy. This will completely delete every resource SAM controls, so the next time you deploy, they will be rebuilt from scratch. This has a few side effects; SAM will generate a new URL for your API, for example, so you will need to update your client to use the new URL. In milestone 4, it will also clear all your database tables and generate new URLs for your SQS queues.
 
 ## AWS CLI and Shell Scripts (Alternative)
 
