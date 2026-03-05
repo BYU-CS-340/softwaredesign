@@ -69,6 +69,9 @@ Below topics are organized into related groups. To see a chronological listing o
 - [Cloud Data Store (DynamoDB)](./cloud-datastore-dynamodb/cloud-datastore-dynamodb.md)
 - [Asynchronous Messaging and SQS](./async-messaging-sqs/async-messaging-sqs.md)
 
+## Other
+- [AI Programming](./ai-programming/ai-programming.md)
+
 ## Midterm Exam
 
 - [Midterm Exam Review](midterm-review/midterm-review.md)
