@@ -4,7 +4,7 @@
 
 Read:
 
-[Best Practices for Programming with AI] (./ai-programming/Best_Practices_for_Programming_with_AI.md)
+[Best Practices for Programming with AI](./Best_Practices_for_Programming_with_AI.pdf)
 
 ## Quiz
 
