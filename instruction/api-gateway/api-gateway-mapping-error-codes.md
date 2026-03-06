@@ -1,13 +1,12 @@
 # Mapping Exceptions to Error Codes in API Gateway
 
-HTTP status codes indicate to a client whether a request completed successfully or unsuccessfully. You can view  the standardized status codes for HTTP hereLinks to an external site.. The back-end of your course project should return error codes if they receive invalid requests.
+HTTP status codes indicate to a client whether a request completed successfully or unsuccessfully. You can view  the standardized status codes for HTTP here. The back-end of your course project should return error codes if they receive invalid requests.
 
 ## Throw Runtime Exceptions in Lambda Code
 
 In your Lambda code, throw uncaught Runtime Exceptions. In each exception message, you should begin the message with an identifier to indicate what type of exception occurred.
 
 In the example code below, note the messages passed into the Runtime Exceptions.
-
 ```
 public class UserService extends Service {
 
