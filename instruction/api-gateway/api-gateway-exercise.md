@@ -205,8 +205,9 @@ The Lambda/IAM exercise has been completed.
     - For each method in the API:
         - In the Resources tab, select the method.
         - On the top right, click Update Documentation.
-        - Edit the description
+        - Edit the description. (It might initially appear to have a different value, but that will go away once you begin typing.)
         - Click "Save".
+    - Re-deploy the API again
     - Go to the Documentation tab on the left-hand panel.
     - All of the descriptions should be displayed.
     - In the upper-right-hand corner, click "Publish Documentation"
