@@ -16,9 +16,6 @@ npm is already installed on your computer.
 1. Run `npm install ts-node --save-dev`
 1. Create an src directory
 1. Create a typescript file in your src directory and write your typescript code
-
-## Optional Steps
-
 1. Run `npx tsc --init`
 1. Edit compilerOptions in tsconfig.json to contain the following settings:
     ```
