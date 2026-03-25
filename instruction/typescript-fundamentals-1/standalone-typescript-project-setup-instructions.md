@@ -17,7 +17,7 @@ npm is already installed on your computer.
 1. Create an src directory
 1. Create a typescript file in your src directory and write your typescript code
 
-## Optional Steps
+## Optional Steps (Only if you don't run your typescript code with npx)
 
 1. Run `npx tsc --init`
 1. Edit compilerOptions in tsconfig.json to contain the following settings:
@@ -32,6 +32,9 @@ npm is already installed on your computer.
 **Note:** If you do not include these steps, ts-node will use reasonable defaults when running your code.
 
 ## Running Your Typescript Code
+
+> [!NOTE]
+> If you want to run the following command to run your code, the optional step is not optional. You can run your code in another way if you would would like instead
 
 `npx ts-node src/<Your Typescript File.ts>`
 
