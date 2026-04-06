@@ -1,11 +1,11 @@
 # FINAL EXAM - Preparation Help
 
-- Taken in the class room during exam week
+- Taken in the testing center during exam week
 - 24 Questions: 8 T/F (worth 2 points each),  11 M/C (worth 4 points each) and 5 open-ended essay questions (worth 8 points each)
-    - Circle T/F and M/C answers in the exam booklet
+    - Answer T/F and M/C questions on the provided bubble-sheet
     - Write open-ended essay answers in the exam booklet
-- Time limit: 3 hours
-- Scratch paper is allowed but you must bring your own and turn it in with your exam
+- Time limit: No time limit (but plan for 2 - 3 hours and be aware of testing center closing time)
+- Scratch paper is allowed but you must bring your own
 - If there is code in a question, it will be in TypeScript. If you are to write code for a response, it is expected to be in TypeScript
 - General preparation tip: review the reading, lecture slides, and exercises we've covered so far
 - Tip: a good way to learn/study design patterns is to focus on:
@@ -62,9 +62,6 @@ How would you implement the following stack interface using an existing ArrayLis
 >         void push(T t);
 >         T pop();
 >       }
-
-Topic: Decorator pattern
-- Suppose you wanted to extend your get followers endpoint to include an optional parameter to support different kinds of compression. How might the decorator pattern help?
 
 Topic: Command pattern
 - What are some uses beyond undo/redo stacks? What would be the elements of such a solution?
