@@ -71,17 +71,3 @@ The useUserInfo function must be the default export of the UserInfoHook. Notice 
 
 1. Make sure the component test has the .tsx extension.
 1. Do not place the tests inside of the \_\_mocks\_\_ folder. The underscores signify that it is a configuration directory, and so the files are treated differently and can mess up the tests.
-
-## TypeError: this.methodToStub is not a function
-
-When trying to remove duplicate code, if you put the service in a parent class with it's own getter, you may notice that doing `when(appNavbarPresenter.service).thenReturn(instance(mockService))` will get you the error that's listed as the title. This occurs because this method is not a function in the child class, but in the parent class that is inherited.
-
-The fix is, instead of using the when().thenReturn() method, we must define the property explicitly by doing the following:
-
-```ts
-Object.defineProperty(appNavbarPresenter, "service", {
-  get: () => instance(mockService),
-});
-```
-
-This defines the getter for the service explicitly so that it can be overrided / mocked so the child class can actually return the mockedService that we want for the test.
