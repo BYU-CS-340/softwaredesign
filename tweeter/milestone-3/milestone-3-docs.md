@@ -5,7 +5,7 @@ As part of Milestone 3 you were required to create your Tweeter Web API in AWS A
 ## Your Web API will need to provide capabilities such as
 
 1. Sign up a user
-1. vSign in a user
+1. Sign in a user
 1. Follow a user
 1. Determine if a user is currently following another user
 1. Get a user's followers (must be paginated)
