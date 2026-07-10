@@ -66,14 +66,14 @@ For milestone 2 to milestone 4 you will be implementing a core set of features f
 **And status related requirements:**
 
 1. A signed in user can post a status. The system will then add that newly created status to the feeds of all of the author’s followers.
-1. A signed in user can view all statuses of the users they follow merged into one list, sorted from newest to oldest. We call this list of statuses the user’s feed and should be the default view of the application for a signed in user.
-1. A user can view all statuses posted by a given user, sorted from newest to oldest. We call this list of statuses a user’s story and can be reached by clicking on a “mention” link (@…).
+1. A signed in user can view all statuses of the users they follow merged into one list, sorted from newest to oldest. We call this list of statuses the user’s feed. It should be the default view of the application for a signed in user.
+1. A user can view all statuses posted by a given user, sorted from newest to oldest. We call this list of statuses a user’s story. It can be reached by clicking on a “mention” link (@…).
 
 **And following/followers related requirements:**
 
 1. A user can view all of the users followed by a particular user. Naturally this includes the ability for a signed in user to see all of the users she or he follows.
 1. A user can view all of the users following a particular user. Again, this includes the ability for a signed in user to see all users following him or her.
-1. A user can see a count of all of his or her followers and followees.
+1. A user can see a count of all of his or her followers and following.
 1. A signed in user can follow an unlimited number of other users, though a user cannot follow herself or himself or someone he or she is already following.
 1. A signed in user can only unfollow users they are following. After user A unfollows user B, user B’s new statuses are no longer added to A’s feed, however all of B’s statuses that had previously been added to A’s feed remain in A’s feed.
 1. A user can see a count of how many users are followed by a particular user. The same goes for the count of how many users are following that particular user. Naturally, these counts should change when users select to follow or unfollow another user.
