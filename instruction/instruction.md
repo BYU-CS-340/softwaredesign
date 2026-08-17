@@ -74,9 +74,12 @@ Below topics are organized into related groups. To see a chronological listing o
 
 ## Midterm Exams
 
+- [Midterm 1 Exam](midterm-1-exam/midterm-1-exam.md)
 - [Midterm 1 Exam Review](midterm-1-review/midterm-1-review.md)
+- [Midterm 2 Exam](midterm-2-exam/midterm-2-exam.md)
 - [Midterm 2 Exam Review](midterm-2-review/midterm-2-review.md)
 
 ## Final Exam
 
+- [Final Exam](final-exam/final-exam.md)
 - [Final Exam Review](final-review/final-review.md)
