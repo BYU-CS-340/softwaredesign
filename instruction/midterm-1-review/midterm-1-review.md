@@ -1,9 +1,9 @@
-# MIDTERM - Preparation Help
+# MIDTERM 1 - Preparation Help
 
 - Taken in the testing center
-    - Thursday, March 5th 8:00 am - Tuesday, March 10th.
-        - Checkout closes at 9 pm on March 10th with tests collected at 10 pm
-    - Late fees start on Tuesday, March 10th at 8:00 am
+    - Thursday, October 1st 8:00 am - Tuesday, October 6th.
+        - Checkout closes at 9 pm on October 6th with tests collected at 10 pm
+    - Late fees start on Tuesday, October 6th at 8:00 am
 - Question types: T/F, M/C and open-ended essay questions
     - Enter T/F and M/C answers on bubble sheet
     - Write open-ended essay answers on the exam 
@@ -14,7 +14,9 @@
 
 ## Topics
 
-*The following is a list of topics covered in the course with questions from quizzes and a few study tips.*
+Midterm 1 covers the first third of the course, from the beginning of the semester through User Interface Architecture. Later topics are covered on [Midterm 2](../midterm-2-review/midterm-2-review.md) and the [Final Exam](../final-review/final-review.md).
+
+*The following is a list of topics covered in this portion of the course with questions from quizzes and a few study tips.*
 
 Topic: Typescript
 - Review the key concepts covered in class about Typescript.
@@ -23,6 +25,14 @@ Topic: Typescript
 
 Topic: React.js (as an approach to UI programming)
 - Review the key concepts that react.js is based on and the main facilities provided. Pay particular attention to those discussed/used in this course.
+- Components
+- JSX
+- Props and conditional rendering
+- State and the Virtual DOM
+- Traditional web app vs. Single Page Application (SPA)
+- React Hooks
+    - Know what each of these is for: `useState`, `useRef`, `useEffect`, `useMemo`, `useCallback`, `useContext`
+- React Router
 
 Topic: UML class and sequence diagrams
 - Create a UML class or sequence diagram that represents specified information.
@@ -45,53 +55,3 @@ Topic: Observer pattern
 Topic: Principles of user interface architecture: MVC, MVP and MVVM
 - How is MVP structurally different from the MVC pattern? What are the advantages and disadvantages of that difference?
 - How is MVVM structurally different from the MVP pattern? What are the advantages and disadvantages of that difference?
-
-Topic: Testing with Mocks and Spies (jest, ts-mockito, react testing library)
-- What is the role of "fake" objects in unit and integration testing? What useful things can "fake" objects do in test cases?
-- What is the difference between "mocks" and "spies"?
-- What is the difference between "when" and "verify" in ts-mockito?
-
-Topic: Design principles
-- Topic: Simplicity
-- Topic: Avoid code duplication
-    - In addition to making code more maintainable, name another benefit of avoiding code duplication.
-- Topic: Orthogonality
-    - In the context of software design, what is the principle of "Orthogonality"? What design principles discussed in this course can help us achieve orthogonality in our designs? 
-- Topic: Single responsibility principle
-- Topic: Minimize Dependencies
-- Topic: Decomposition
-    - The reading suggests three specific ways to determine whether a module has been decomposed sufficiently.  Name two of them.
-- Topic: High-quality abstraction
-    - In situations where a primitive type (int or string, say) could be used to represent a concept, when might it be better to create a new class instead of using that primitive? Give at least two reasons.
-- Topic: Information hiding
-    - List 2 specific ways to achieve information hiding. 
-- Topic: Depend on abstractions
-    - In the following method which design principle is violated? How would you fix it?
-
->       void f(ArrayList<String> names) {
->           for (int i = 0; i < names.size(); i++) {
->               names.set(i, names.get(i).toUpperCase());
->           }
->       }
-
-- Topic: Isolated change principle
-- Topic: Error handling
-- Topic: Algorithm and data structure selection
-
-Topic: Code Reuse
-- What are the primary ways to achieve code reuse?
-    - Parameterization (e.g., Generic Types)
-    - Implementation Inheritance
-    - Composition/Delegation (wrapping)
-- Generic Programming with Typescript Generics
-    - Know how to write generic classes and methods using Typescript syntax.
-
-Topic: Open-Closed Principle
-- What should be open?
-- What should be closed?
-
-Topic: Template-Method Pattern
-
-Topic: AWS console, CLI and SDK
-
-Topic: Lambda (and IAM)
