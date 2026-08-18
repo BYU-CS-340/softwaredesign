@@ -2,7 +2,7 @@
 
 The course content is divided into multiple topics that you should strive to master. The instruction for a topic includes pre-class preparation, lecture slides/notes/files, and hands-on exercises.
 
-Below topics are organized into related groups. To see a chronological listing of topics, see the [Course Schedule](../schedule/schedule-fall-2026.md)
+Below topics are organized into related groups. To see a chronological listing of topics, see the Course Schedule for [Dr. Rodham's sections (MW)](../schedule/schedule-fall-2026-mw.md) or [Dr. Wilkerson's sections (TTh)](../schedule/schedule-fall-2026-tth.md)
 
 ### Legend
 

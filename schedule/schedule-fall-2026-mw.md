@@ -1,4 +1,4 @@
-# Fall 2026 Schedule
+# Fall 2026 Schedule - Dr. Rodham's Sections (MW)
 
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Week &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Day &nbsp;&nbsp;&nbsp;| Date       | Topics                                                    | Deliverable                              |
 |:----------------------------------------------------------------:|:---------------------------------------:| ---------- | ----------------------------------------------------------| ---------------------------------------- |
