@@ -16,9 +16,9 @@
 
 ## Topics
 
-The final exam is *cumulative*, covering the entire semesters' topics. The exam heavily emphasizes post-midterm topics, but some questions do cover pre-midterm material. For a summary of pre-midterm topics, see: [MIDTERM - Preparation help](../midterm-review/midterm-review.md).
+The final exam is *cumulative*, covering the entire semesters' topics. The exam heavily emphasizes the topics listed below, which are the ones taught after Midterm 2, but some questions do cover material from earlier in the course. For a summary of those earlier topics, see: [MIDTERM 1 - Preparation help](../midterm-1-review/midterm-1-review.md) and [MIDTERM 2 - Preparation help](../midterm-2-review/midterm-2-review.md).
 
-Here are the post-midterm topics:
+Here are the post-Midterm 2 topics:
 
 Topic: Dependency Inversion Principle 
 

@@ -74,7 +74,7 @@ We highly recommend that you store the number of followers and following as fiel
 
 ### How do I query the follow table by both followers and followees?
 
-You need to set up an Index for the table, as described in [DynamoDB Exercise - Part 1](../../instruction/cloud-datastore-dynamodb/dynamodb-exercise-1.md) and [DynamoDB Exercise - Part 2](../../instruction/cloud-datastore-dynamodb/dynamodb-exercise-2.md).
+You need to set up an Index for the table, as described in [DynamoDB Exercise - Part 1](../../instruction/cloud-datastore-dynamodb/dynamodb-exercise-1.md) and [DynamoDB Exercise - Part 2](../../instruction/abstracting-dependencies-adapter-dao/dynamodb-exercise-2.md).
 
 ## Milestone 4B
 

@@ -1,9 +1,9 @@
-# MIDTERM - Preparation Help
+# MIDTERM 2 - Preparation Help
 
 - Taken in the testing center
-    - Thursday, March 5th 8:00 am - Tuesday, March 10th.
-        - Checkout closes at 9 pm on March 10th with tests collected at 10 pm
-    - Late fees start on Tuesday, March 10th at 8:00 am
+    - Thursday, October 29th 8:00 am - Tuesday, November 3rd.
+        - Checkout closes at 9 pm on November 3rd with tests collected at 10 pm
+    - Late fees start on Tuesday, November 3rd at 8:00 am
 - Question types: T/F, M/C and open-ended essay questions
     - Enter T/F and M/C answers on bubble sheet
     - Write open-ended essay answers on the exam 
@@ -11,45 +11,31 @@
 - Scratch paper is allowed but you must bring your own, have it stamped at the testing center, and turn it in with your exam
 - If there is code in a question, it will be in TypeScript. If you are to write code for a response, it is expected to be in TypeScript
 - General preparation tip: review the reading, lecture slides, and exercises we've covered so far
-
-## Topics
-
-*The following is a list of topics covered in the course with questions from quizzes and a few study tips.*
-
-Topic: Typescript
-- Review the key concepts covered in class about Typescript.
-- Understand the basic syntax.
-- Focus on how Typescript handles data types (variable and function types).
-
-Topic: React.js (as an approach to UI programming)
-- Review the key concepts that react.js is based on and the main facilities provided. Pay particular attention to those discussed/used in this course.
-
-Topic: UML class and sequence diagrams
-- Create a UML class or sequence diagram that represents specified information.
-- Read/interpret a UML class or sequence diagram
-- Tip: Remember that UML diagrams can be used at different levels. For example, we've seen conceptual and implementation level diagrams.
-
-Topic: Software architecture, layers
-- What is software architecture?
-- Name some benefits of organizing software into layers.
-
-Topic: Design patterns
 - Tip: a good way to learn/study design patterns is to focus on:
     - The intent of the pattern or the design problem it intends to solve
     - The structure of the solution (e.g. the classes, interfaces and relationships that play different roles and why each is part of the solution)
     - Examples of when and how you might use the pattern and what the benefits of doing so might be.
     - Be prepared to write code on the exam that implements the pattern.
 
-Topic: Observer pattern
+## Topics
 
-Topic: Principles of user interface architecture: MVC, MVP and MVVM
-- How is MVP structurally different from the MVC pattern? What are the advantages and disadvantages of that difference?
-- How is MVVM structurally different from the MVP pattern? What are the advantages and disadvantages of that difference?
+Midterm 2 covers the second third of the course, from Code Reuse through API Gateway. Earlier topics are covered on [Midterm 1](../midterm-1-review/midterm-1-review.md), and later topics on the [Final Exam](../final-review/final-review.md).
 
-Topic: Testing with Mocks and Spies (jest, ts-mockito, react testing library)
-- What is the role of "fake" objects in unit and integration testing? What useful things can "fake" objects do in test cases?
-- What is the difference between "mocks" and "spies"?
-- What is the difference between "when" and "verify" in ts-mockito?
+*The following is a list of topics covered in this portion of the course with questions from quizzes and a few study tips.*
+
+Topic: Code Reuse
+- What are the primary ways to achieve code reuse?
+    - Parameterization (e.g., Generic Types)
+    - Implementation Inheritance
+    - Composition/Delegation (wrapping)
+- Generic Programming with Typescript Generics
+    - Know how to write generic classes and methods using Typescript syntax.
+
+Topic: Open-Closed Principle
+- What should be open?
+- What should be closed?
+
+Topic: Template-Method Pattern
 
 Topic: Design principles
 - Topic: Simplicity
@@ -78,20 +64,13 @@ Topic: Design principles
 - Topic: Error handling
 - Topic: Algorithm and data structure selection
 
-Topic: Code Reuse
-- What are the primary ways to achieve code reuse?
-    - Parameterization (e.g., Generic Types)
-    - Implementation Inheritance
-    - Composition/Delegation (wrapping)
-- Generic Programming with Typescript Generics
-    - Know how to write generic classes and methods using Typescript syntax.
-
-Topic: Open-Closed Principle
-- What should be open?
-- What should be closed?
-
-Topic: Template-Method Pattern
+Topic: Testing with Mocks and Spies (jest, ts-mockito, react testing library)
+- What is the role of "fake" objects in unit and integration testing? What useful things can "fake" objects do in test cases?
+- What is the difference between "mocks" and "spies"?
+- What is the difference between "when" and "verify" in ts-mockito?
 
 Topic: AWS console, CLI and SDK
 
 Topic: Lambda (and IAM)
+
+Topic: API Gateway

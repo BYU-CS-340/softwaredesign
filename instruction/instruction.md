@@ -2,7 +2,7 @@
 
 The course content is divided into multiple topics that you should strive to master. The instruction for a topic includes pre-class preparation, lecture slides/notes/files, and hands-on exercises.
 
-Below topics are organized into related groups. To see a chronological listing of topics, see the [Course Schedule](../schedule/schedule-fall-2025.md)
+Below topics are organized into related groups. To see a chronological listing of topics, see the Course Schedule for [Dr. Rodham's sections (MW)](../schedule/schedule-fall-2026-mw.md) or [Dr. Wilkerson's sections (TTh)](../schedule/schedule-fall-2026-tth.md)
 
 ### Legend
 
@@ -72,10 +72,14 @@ Below topics are organized into related groups. To see a chronological listing o
 ## Other
 - [AI Programming](./ai-programming/ai-programming.md)
 
-## Midterm Exam
+## Midterm Exams
 
-- [Midterm Exam Review](midterm-review/midterm-review.md)
+- [Midterm 1 Exam](midterm-1-exam/midterm-1-exam.md)
+- [Midterm 1 Exam Review](midterm-1-review/midterm-1-review.md)
+- [Midterm 2 Exam](midterm-2-exam/midterm-2-exam.md)
+- [Midterm 2 Exam Review](midterm-2-review/midterm-2-review.md)
 
 ## Final Exam
 
+- [Final Exam](final-exam/final-exam.md)
 - [Final Exam Review](final-review/final-review.md)

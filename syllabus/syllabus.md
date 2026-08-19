@@ -62,6 +62,26 @@ Ex: if you lose 20% for being two days late, and another 10% for missing a funct
 2. **For In-Class assignments and Tweeter Milestones 1 and 2, students may not submit anything (especially code) that was written by an AI tool** (such as ChatGPT, Copilot, Cursor, Claude Code, Antigravity, or any other AI tool). A general rule of thumb is that students should treat AI assistants like they might the TAs: getting clarifications and explanations is appropriate, but it is crucial for students to do their own work and only submit work that is their own.
 3. **For Tweeter Milestones 3 and 4 only**, students may use AI tools without restriction. This includes using AI tools to generate code. However, you are responsible to understand every line of code you submit as if you wrote it yourself. These assignments are still individual assignments. You must do your own work and only submit work that is your own.
 
+## Grade Breakdown
+
+Your grade in this class is determined by the following categories and weights:
+
+| Category      | Percentage |
+| :------------ | :--------- |
+| Image Editor  | 2%         |
+| Milestone 1   | 4%         |
+| Milestone 2   | 18%        |
+| Milestone 3   | 5%         |
+| Milestone 4   | 9%         |
+| Quizzes       | 5%         |
+| Midterm 1     | 12%        |
+| Midterm 2     | 12%        |
+| Final Exam    | 18%        |
+| Exercises     | 15%        |
+| **Total**     | **100%**   |
+
+**You must earn at least 70% on Milestone 3, Milestone 4A, and Milestone 4B in order to pass this class.** This applies to each of the three individually — a score below 70% on any one of them means you will not receive a passing grade, even if your total score in the course would otherwise be 60% or higher.
+
 ## Grade Scheme
 
 The following grading standards will be used in this class:
