@@ -3,7 +3,7 @@
 - Taken in the testing center
     - Monday, October 12th 8:00 am - Wednesday, October 14th.
         - Checkout closes at 9 pm on October 14th with tests collected at 10 pm
-    - Late fees start on Wednesday, October 14th at 8:00 am
+    - Late fees start on Wednesday, October 14th at 2:00 pm
 - Question types: T/F, M/C and open-ended essay questions
     - Enter T/F and M/C answers on bubble sheet
     - Write open-ended essay answers on the exam 

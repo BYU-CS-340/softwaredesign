@@ -1,6 +1,6 @@
 # Midterm 1 Exam
   
-This exam will be taken in the testing center. It will be available starting at 8:00 am on Monday, October 12th. It must be started by 9:00 pm on Wednesday, October 14th. The testing center will charge a late fee for any exam taken on October 14th.
+This exam will be taken in the testing center. It will be available starting at 8:00 am on Monday, October 12th. It must be started by 9:00 pm on Wednesday, October 14th. The testing center will charge a late fee for any exam started at or after 2:00 pm on October 14th.
 
 There is no time limit for the exam, but you should give yourself two to three hours to complete the exam.
 
