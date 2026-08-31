@@ -18,23 +18,20 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 
 **_Bold and italic means unavailable._**
 
-|                  |           Monday           |     Tuesday      |         Wednesday          | Thursday |      Friday      |
-| :--------------: | :------------------------: | :--------------: | :------------------------: | :------: | :--------------: |
-|  8:00 - 8:59 AM  |          Tristan           |     Tristan      |          Tristan           | Tristan  |   **_Closed_**   |
-|  9:00 - 9:59 AM  |     Ian,\* Tristan\*\*     |       Ian        |     Alden, Tristan\*\*     |   Ian    |      Keaton      |
-| 10:00 - 10:59 AM |            Than            |      Keaton      |            Than            |  Keaton  |  Than, Tristan   |
-| 11:00 - 11:59 AM |    Alden, Tristan\*\*\*    | **_Devotional_** |    Alden, Tristan\*\*\*    |  Keaton  |  Will, Tristan   |
-| 12:00 - 12:59 PM |       Will, Tristan        |      Keaton      |      Keaton, Tristan       |  Keaton  |       Will       |
-|  1:00 - 1:59 PM  | 👩🏻‍🏫 _Will, Keaton, Tristan_ |      Alden       | 👩🏻‍🏫 _Will, Keaton, Tristan_ |  Alden   |       Ian        |
-|  2:00 - 2:59 PM  | 👩🏻‍🏫 _Will, Alden, Tristan_  |       Ian        | 👩🏻‍🏫 _Will, Alden, Tristan_  |   Will   |       Ian        |
-|  3:00 - 3:59 PM  |      👩🏻‍🏫 _Will, Alden_      |       Will       |      👩🏻‍🏫 _Will, Alden_      |   Will   | **_TA Meeting_** |
-|  4:00 - 4:59 PM  |       👩🏻‍🏫 _Ian, Will_       |       Will       |      👩🏻‍🏫 _Than, Will_       |   Will   |       Will       |
-|  5:00 - 5:59 PM  |         Ian, Will          |       Than       |         Than, Will         |   Than   |       Than       |
-|  6:00 - 6:59 PM  |           Keaton           |       Than       |            Than            |   Ian    |       Than       |
+|                  |   Monday    |     Tuesday      |  Wednesday  |    Thursday    |      Friday      |
+| :--------------: | :---------: | :--------------: | :---------: | :------------: | :--------------: |
+|  9:00 - 9:59 AM  |   Tristan   |  👩🏻‍🏫 _Tristan\*_  |   Tristan   | 👩🏻‍🏫 _Tristan\*_ |       Tom        |
+| 10:00 - 10:59 AM |   Tristan   |   👩🏻‍🏫 _Tristan_   |   Tristan   |  👩🏻‍🏫 _Tristan_  |       Tom        |
+| 11:00 - 11:59 AM |   Joshua    | **_Devotional_** |   Joshua    |    Tristan     | **_TA Meeting_** |
+| 12:00 - 12:59 PM |   Joshua    |     Tristan      |   Joshua    |    Tristan     |       Tom        |
+|  1:00 - 1:59 PM  | 👩🏻‍🏫 _Joshua_ |     Tristan      | 👩🏻‍🏫 _Joshua_ |    Tristan     |      Joshua      |
+|  2:00 - 2:59 PM  |  👩🏻‍🏫 _Tom_   |      Joshua      |  👩🏻‍🏫 _Tom_   |     Joshua     |      Joshua      |
+|  3:00 - 3:59 PM  |  👩🏻‍🏫 _Tom_   |   Tristan\*\*    |  👩🏻‍🏫 _Tom_   |  Tristan\*\*   |      Joshua      |
+|  4:00 - 4:59 PM  |  👩🏻‍🏫 _Tom_   |       Tom        |  👩🏻‍🏫 _Tom_   |      Tom       |      Joshua      |
+|  5:00 - 5:59 PM  |     Tom     |       Tom        |     Tom     |      Tom       |      Joshua      |
+|  6:00 - 6:59 PM  |     Tom     |       Tom        |     Tom     |      Tom       |      Joshua      |
 
-\*Starts 9:15, \*\*Ends 9:30, \*\*\*Starts 11:30
-
-\*Starts 9:15
+\*Starts 9:30, \*\*Starts 3:30
 
 ### For help during class hours
 
