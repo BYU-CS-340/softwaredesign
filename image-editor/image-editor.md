@@ -1,5 +1,5 @@
 
-# Image Editor - Convert the TypeScript
+# Image Editor - Convert to TypeScript
 
 The purpose of this assignment is to give you hands-on experience creating and running a TypeScript program.
 
