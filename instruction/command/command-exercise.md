@@ -1,4 +1,6 @@
 # Command Exercise
+
+> **AI usage for this assignment is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
   
 The provided code in [command-starter-code.zip](./command-starter-code.zip) implements a simple console-based text editor program which lets the user edit text documents. A text document is simply a sequence of characters. The program lets the user perform the following operations:
 

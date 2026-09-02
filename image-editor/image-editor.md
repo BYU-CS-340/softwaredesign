@@ -1,6 +1,8 @@
 
 # Image Editor - Convert to TypeScript
 
+> **AI usage for this assignment is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
+
 The purpose of this assignment is to give you hands-on experience creating and running a TypeScript program.
 
 Image Editor is a programming assignment that was formerly used in CS 240. Image Editor performs transformations on PPM image files (PPM is a text-based image file format). As one example, Image Editor can take a color image and convert it to a black-and-white (i.e., grayscale) version of the same image.  On Image Editor's command-line, the user provides the name of an input image file, the name of the output (i.e., transformed) image file, and the kind of transformation to be performed on the image (e.g., "grayscale"). In addition to "grayscale", Image Editor also supports three other kinds of image transformations: "invert", "emboss", and "motion blur".

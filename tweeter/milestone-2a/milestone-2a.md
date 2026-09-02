@@ -1,4 +1,6 @@
 # Project Milestone 2 Part A: Layered Architecture
+
+> **AI usage for this milestone is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
   
 For this milestone you will continue to work on the Tweeter UI. The starting point for this milestone is the code you ended up with after completing milestone 1. You are welcome (but not required or expected) to improve the design of your UI, but if you modify it, make sure your user interface includes all views needed to meet the requirements documented in the "Requirements" section of the [Course Project](../project-overview/tweeter.md) overview. **This is to be the front-end of your application only**, so do not make any requests to backend AWS services.  Instead, your front-end application should have realistic dummy data that will later (i.e., in later milestones) be replaced with calls to such backend services.
 

@@ -1,5 +1,7 @@
 # Project Milestone 1: Tweeter Web UI Cleanup
 
+> **AI usage for this milestone is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
+
 Before starting this milestone, you should review the description and domain model in the [course project overview](../project-overview/tweeter.md).
 
 Your assignment for this milestone is to cleanup the structure and design of the provided Tweeter UI by adding React components and React hooks. The assignment is divided into three parts.

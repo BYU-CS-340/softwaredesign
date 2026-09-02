@@ -1,4 +1,6 @@
 # AWS S3 Exercise
+
+> **AI usage for this assignment is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
   
 In this exercise you will write a program that uses the AWS SDK to upload a local file into an S3 bucket.
 

@@ -1,4 +1,6 @@
 # Project Milestone 2 Part B: Remove Code Duplication
+
+> **AI usage for this milestone is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
   
 For this milestone you will continue to work on the Tweeter UI. The starting point for this milestone is the code you ended up with after completing milestone 2A.
 

@@ -1,5 +1,7 @@
 # Project Milestone 2 Part C: Automated Testing
 
+> **AI usage for this milestone is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
+
 For this milestone you will write tests to test some of the presenters and some of the components of your Tweeter application. In practice, you should write many more tests than we are requiring in this assignment.
 
 ## Testing Configuration

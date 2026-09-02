@@ -1,5 +1,7 @@
 # Milestone 2 Part C: Documents
 
+> **AI usage for this milestone is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
+
 ## Question 1
 
 This question is about the code involved in **getting and displaying a user's story**. For **Milestone 2 Part A** you were asked to redesign your Tweeter UI code (including the "user story" code) based on the MVP pattern. Please answer the following and provide a simple **UML class diagram** and a simple **UML sequence diagram** to support your answers:

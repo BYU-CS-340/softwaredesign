@@ -1,4 +1,6 @@
 # Generics Exercise
+
+> **AI usage for this assignment is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
   
 For this exercise you will create some generic classes and generic methods. The files for this exercise can be downloaded [here](./generics-starter-code.zip). Please do the following:
 

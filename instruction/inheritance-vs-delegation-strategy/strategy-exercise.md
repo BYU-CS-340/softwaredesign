@@ -1,4 +1,6 @@
 # Strategy Pattern Exercise
+
+> **AI usage for this assignment is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
   
 Demonstrate how you would use the Strategy pattern to solve the following design problems.  For each problem, define the classes and interfaces that would be needed. Your solutions should be expressed using UML class diagrams.
 
