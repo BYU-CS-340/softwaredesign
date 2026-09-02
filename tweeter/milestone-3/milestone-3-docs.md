@@ -1,5 +1,7 @@
 # Project Milestone 3: Documents
 
+> **AI usage for this milestone is Level 3 — Partner** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), an exception to the course default of Level 1.
+
 As part of Milestone 3 you were required to create your Tweeter Web API in AWS API Gateway and provide documentation for each Web API endpoint. For this assignment you will submit your API documentation. As a reminder, here is the relevant part of the Milestone 3 specification:
 
 ## Your Web API will need to provide capabilities such as

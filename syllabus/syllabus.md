@@ -56,11 +56,13 @@ For in-class exercises and other assignments that do not require a passoff, if y
 
 Ex: if you lose 20% for being two days late, and another 10% for missing a function, you will receive 70% credit. If you add the missing function and resubmit, you can get back half of the 10% lost, for 75%.
 
-## LLMs, Generative AI, etc. Policy
+## AI Usage Policy
 
-1. Students may use AI assistants to support their learning and course objectives. Not all AI generated information (or code, for that matter) is accurate or consistent with what we are teaching in this course. Please do not let uncritical use of AI tools interfere with your learning.
-2. **For In-Class assignments and Tweeter Milestones 1 and 2, students may not submit anything (especially code) that was written by an AI tool** (such as ChatGPT, Copilot, Cursor, Claude Code, Antigravity, or any other AI tool). A general rule of thumb is that students should treat AI assistants like they might the TAs: getting clarifications and explanations is appropriate, but it is crucial for students to do their own work and only submit work that is their own.
-3. **For Tweeter Milestones 3 and 4 only**, students may use AI tools without restriction. This includes using AI tools to generate code. However, you are responsible to understand every line of code you submit as if you wrote it yourself. These assignments are still individual assignments. You must do your own work and only submit work that is your own.
+CS 340 has adopted the [BYU CS Department AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83) from the department website.
+
+The default level (for all assignments unless the assignment instructions explicitly specify otherwise) is **level 1: Reference. AI helps you learn. It never sees your work.** See the full details of what this means in the above usage level definitions document.
+
+For project **milestones 3 and 4 only**, the allowed AI usage level is 3: Partner. You build it together. You understand all of it.
 
 ## Grade Breakdown
 

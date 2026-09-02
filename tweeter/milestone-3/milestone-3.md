@@ -1,5 +1,7 @@
 # Project Milestone 3: API Design and Implementation
 
+> **AI usage for this milestone is Level 3 — Partner** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), an exception to the course default of Level 1.
+
 ## Overview
 
 The Tweeter web application consists of 14 features. For this milestone, you will move the backend logic (the code that you should have placed in Service classes in milestone 2) into AWS using API Gateway and AWS Lambdas for all 14 features. To accomplish this, you will complete the following three major tasks:

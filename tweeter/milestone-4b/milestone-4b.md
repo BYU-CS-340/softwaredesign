@@ -1,5 +1,7 @@
 # Project Milestone 4 Part B: Scalable Status Processing
 
+> **AI usage for this milestone is Level 3 — Partner** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), an exception to the course default of Level 1.
+
 In this milestone you will implement the rest of your server and complete all of the functionality described in the [Course Project](../project-overview/tweeter.md) overview, including the requirements for authentication tokens and the handling of passwords, using DynamoDB to persist data rather than using hard-coded dummy data, and uploading user profile images to S3.
 
 ## Populating Your Database With Test Data
