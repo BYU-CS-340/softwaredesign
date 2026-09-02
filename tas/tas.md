@@ -18,20 +18,20 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 
 **_Bold and italic means unavailable._**
 
-|                  |   Monday    |     Tuesday      |  Wednesday  |    Thursday    |      Friday      |
-| :--------------: | :---------: | :--------------: | :---------: | :------------: | :--------------: |
-|  9:00 - 9:59 AM  |   Tristan   |  👩🏻‍🏫 _Tristan\*_  |   Tristan   | 👩🏻‍🏫 _Tristan\*_ |       Tom        |
-| 10:00 - 10:59 AM |   Tristan   |   👩🏻‍🏫 _Tristan_   |   Tristan   |  👩🏻‍🏫 _Tristan_  |       Tom        |
-| 11:00 - 11:59 AM |   Joshua    | **_Devotional_** |   Joshua    |    Tristan     | **_TA Meeting_** |
-| 12:00 - 12:59 PM |   Joshua    |     Tristan      |   Joshua    |    Tristan     |       Tom        |
-|  1:00 - 1:59 PM  | 👩🏻‍🏫 _Joshua_ |     Tristan      | 👩🏻‍🏫 _Joshua_ |    Tristan     |      Joshua      |
-|  2:00 - 2:59 PM  |  👩🏻‍🏫 _Tom_   |      Joshua      |  👩🏻‍🏫 _Tom_   |     Joshua     |      Joshua      |
-|  3:00 - 3:59 PM  |  👩🏻‍🏫 _Tom_   |   Tristan\*\*    |  👩🏻‍🏫 _Tom_   |  Tristan\*\*   |      Joshua      |
-|  4:00 - 4:59 PM  |  👩🏻‍🏫 _Tom_   |       Tom        |  👩🏻‍🏫 _Tom_   |      Tom       |      Joshua      |
-|  5:00 - 5:59 PM  |     Tom     |       Tom        |     Tom     |      Tom       |      Joshua      |
-|  6:00 - 6:59 PM  |     Tom     |       Tom        |     Tom     |      Tom       |      Joshua      |
+|                  |   Monday    |     Tuesday      |  Wednesday  |     Thursday     |      Friday      |
+| :--------------: | :---------: | :--------------: | :---------: | :--------------: | :--------------: |
+|  9:00 - 9:59 AM  |   Tristan   | 👩🏻‍🏫 _Tristan\*\*_ |   Tristan   | 👩🏻‍🏫 _Tristan\*\*_ |       Tom        |
+| 10:00 - 10:59 AM |   Tristan   |   👩🏻‍🏫 _Tristan_   |   Tristan   |   👩🏻‍🏫 _Tristan_   |       Tom        |
+| 11:00 - 11:59 AM |   Joshua    | **_Devotional_** |   Joshua    |     Tristan      | **_TA Meeting_** |
+| 12:00 - 12:59 PM |   Joshua    |     Tristan      |   Joshua    |     Tristan      |       Tom        |
+|  1:00 - 1:59 PM  | 👩🏻‍🏫 _Joshua_ |     Tristan      | 👩🏻‍🏫 _Joshua_ |     Tristan      |      Joshua      |
+|  2:00 - 2:59 PM  |  👩🏻‍🏫 _Tom_   |      Joshua      |  👩🏻‍🏫 _Tom_   |      Joshua      |      Joshua      |
+|  3:00 - 3:59 PM  |  👩🏻‍🏫 _Tom_   |  Tristan\*\*\*   |  👩🏻‍🏫 _Tom_   |  Tristan\*\*\*   |      Joshua      |
+|  4:00 - 4:59 PM  |  👩🏻‍🏫 _Tom_   |      Tom\*       |  👩🏻‍🏫 _Tom_   |      Tom\*       |      Joshua      |
+|  5:00 - 5:59 PM  |     Tom     |      Tom\*       |     Tom     |      Tom\*       |      Joshua      |
+|  6:00 - 6:59 PM  |     Tom     |      Tom\*       |     Tom     |      Tom\*       |      Joshua      |
 
-\*Starts 9:30, \*\*Starts 3:30
+\*Online Only, \*\*Starts 9:30, \*\*\*Starts 3:30
 
 ### For help during class hours
 
