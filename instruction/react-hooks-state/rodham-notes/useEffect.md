@@ -21,7 +21,6 @@ import React, { useState, useEffect } from "react";
 function Example() {
   const [count, setCount] = useState(0);
 
-  // Runs after every render
   useEffect(() => {
     document.title = `Clicked ${count} times`;
   }, [count]); // only rerun if count changes
