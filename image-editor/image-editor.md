@@ -1,11 +1,10 @@
-
 # Image Editor - Convert to TypeScript
 
 > **AI usage for this assignment is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
 
 The purpose of this assignment is to give you hands-on experience creating and running a TypeScript program.
 
-Image Editor is a programming assignment that was formerly used in CS 240. Image Editor performs transformations on PPM image files (PPM is a text-based image file format). As one example, Image Editor can take a color image and convert it to a black-and-white (i.e., grayscale) version of the same image.  On Image Editor's command-line, the user provides the name of an input image file, the name of the output (i.e., transformed) image file, and the kind of transformation to be performed on the image (e.g., "grayscale"). In addition to "grayscale", Image Editor also supports three other kinds of image transformations: "invert", "emboss", and "motion blur".
+Image Editor is a programming assignment that was formerly used in CS 240. Image Editor performs transformations on PPM image files (PPM is a text-based image file format). As one example, Image Editor can take a color image and convert it to a black-and-white (i.e., grayscale) version of the same image. On Image Editor's command-line, the user provides the name of an input image file, the name of the output (i.e., transformed) image file, and the kind of transformation to be performed on the image (e.g., "grayscale"). In addition to "grayscale", Image Editor also supports three other kinds of image transformations: "invert", "emboss", and "motion blur".
 
 For this assignment you will translate a provided Java implementation of Image Editor to an equivalent TypeScript implementation. Specifically, you will:
 
@@ -101,3 +100,19 @@ When you are confident that your TypeScript Image Editor is working, submit the 
 - [ ] Your `package.json` file
 - [ ] Your `tsconfig.json` file
 - [ ] Please submit individual files, not a zip file. This will make it easier to grade your work.
+
+## Rubric
+
+- `Motion Blur`, `Invert`, `Grayscale`, `Emboss`  
+  Translates each filter method from Java to TypeScript [8 points]  
+   _For each method:_
+  - Full Points : All images match their key image [2 points]
+  - Partial Points : Some images match / Incorrect arithmatic [1.5 points]
+  - No Points : No images match / Missing method [0 points]
+- _Classes_ - Maintain the structure of the Java ImageEditor by using classes and keeping methods within their speicified class [2 points]
+  - `ImageEditor` [0.5 points]
+  - `Image` [0.5 points]
+  - `Color` [0.5 points]
+  - Methods are defined inside classes [0.5 points]
+- _Functionality_ - Runs the same as the Java implementation
+  - Broken functionality (Not Including Filter Methods) [-0.5 points]
