@@ -58,7 +58,7 @@ Ex: if you lose 20% for being two days late, and another 10% for missing a funct
 
 ## AI Usage Policy
 
-CS 340 has adopted the [BYU CS Department AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83) from the department website.
+CS 340 has adopted the [BYU CS Department AI Usage Level Definitions](https://cs.byu.edu/department/ai-policy) from the department website.
 
 The default level (for all assignments unless the assignment instructions explicitly specify otherwise) is **level 1: Reference. AI helps you learn. It never sees your work.** See the full details of what this means in the above usage level definitions document.
 

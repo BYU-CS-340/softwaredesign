@@ -1,6 +1,6 @@
 # Introducing the observer pattern exercise
 
-> **AI usage for this assignment is Level 1 — Reference** (see the [AI Usage Level Definitions](https://claude.ai/public/artifacts/b1e35a55-f03f-4120-ba4f-b83a1ee3fc83)), the course default: AI helps you learn, but it never sees your work.
+> **AI usage for this assignment is Level 1 — Reference** (see the [AI Usage Level Definitions](https://cs.byu.edu/department/ai-policy)), the course default: AI helps you learn, but it never sees your work.
 
 The goal of this exercise is the give you hands on experience with the Observer Pattern. Combined with pre-class reading and in-class discussion we hope this exercise will help you "get-it" in a way that just seeing some slides about it doesn't.
 
