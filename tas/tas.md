@@ -18,18 +18,18 @@ _Cells with Italic and_ 👩🏻‍🏫 _means in class hours._ Some or all TAs 
 
 **_Bold and italic means unavailable._**
 
-|                  |   Monday    |     Tuesday      |  Wednesday  |     Thursday     |      Friday      | Saturday |
-| :--------------: | :---------: | :--------------: | :---------: | :--------------: | :--------------: | :------: |
-|  9:00 - 9:59 AM  |   Tristan   | 👩🏻‍🏫 _Tristan\*\*_ |   Tristan   | 👩🏻‍🏫 _Tristan\*\*_ |       Tom        | Hyrum\*  |
-| 10:00 - 10:59 AM |   Tristan   |   👩🏻‍🏫 _Tristan_   |   Tristan   |   👩🏻‍🏫 _Tristan_   |       Tom        | Hyrum\*  |
-| 11:00 - 11:59 AM |   Joshua    | **_Devotional_** |   Joshua    |     Tristan      | **_TA Meeting_** | Hyrum\*  |
-| 12:00 - 12:59 PM |   Joshua    |     Tristan      |   Joshua    |     Tristan      |       Tom        | Hyrum \* |
-|  1:00 - 1:59 PM  | 👩🏻‍🏫 _Joshua_ |     Tristan      | 👩🏻‍🏫 _Joshua_ |     Tristan      |      Joshua      |          |
-|  2:00 - 2:59 PM  |  👩🏻‍🏫 _Tom_   |      Joshua      |  👩🏻‍🏫 _Tom_   |      Joshua      |      Joshua      |          |
-|  3:00 - 3:59 PM  |  👩🏻‍🏫 _Tom_   |  Tristan\*\*\*   |  👩🏻‍🏫 _Tom_   |  Tristan\*\*\*   |      Joshua      |          |
-|  4:00 - 4:59 PM  |  👩🏻‍🏫 _Tom_   |   Tom\* Hyrum    |  👩🏻‍🏫 _Tom_   |      Tom\*       |      Joshua      |          |
-|  5:00 - 5:59 PM  |     Tom     |   Tom\* Hyrum    |     Tom     |   Tom\* Hyrum    |      Joshua      |          |
-|  6:00 - 6:59 PM  |     Tom     |   Tom\* Hyrum    |     Tom     |   Tom\* Hyrum    |      Joshua      |          |
+|                  |         Monday          |     Tuesday      |        Wednesday        |           Thursday           |      Friday      | Saturday |
+| :--------------: | :---------------------: | :--------------: | :---------------------: | :--------------------------: | :--------------: | :------: |
+|  9:00 - 9:59 AM  |    Tristan, Spencer     | 👩🏻‍🏫 _Tristan\*\*_ |    Tristan, Spencer     |       👩🏻‍🏫 _Tristan\*\*_       |   Tom, Spencer   | Hyrum\*  |
+| 10:00 - 10:59 AM |    Tristan, Spencer     |   👩🏻‍🏫 _Tristan_   |    Tristan, Spencer     |         👩🏻‍🏫 _Tristan_         |   Tom, Spencer   | Hyrum\*  |
+| 11:00 - 11:59 AM |         Joshua          | **_Devotional_** |         Joshua          |           Tristan            | **_TA Meeting_** | Hyrum\*  |
+| 12:00 - 12:59 PM |         Joshua          |     Tristan      |         Joshua          |           Tristan            |   Tom, Spencer   | Hyrum \* |
+|  1:00 - 1:59 PM  |       👩🏻‍🏫 _Joshua_       |     Tristan      |       👩🏻‍🏫 _Joshua_       |           Tristan            |      Joshua      |          |
+|  2:00 - 2:59 PM  |    👩🏻‍🏫 _Tom, Joshua_     |      Joshua      |    👩🏻‍🏫 _Tom, Joshua_     |            Joshua            |      Joshua      |          |
+|  3:00 - 3:59 PM  | 👩🏻‍🏫 _Tom, Spencer\*\*\*_ |  Tristan\*\*\*   | 👩🏻‍🏫 _Tom, Spencer\*\*\*_ | Tristan\*\*\*, Spencer\*\*\* |      Joshua      |          |
+|  4:00 - 4:59 PM  |    👩🏻‍🏫 _Tom, Spencer_    |   Tom\* Hyrum    |    👩🏻‍🏫 _Tom, Spencer_    |        Tom\*, Spencer        | Joshua, Spencer  |          |
+|  5:00 - 5:59 PM  |      Tom, Spencer       |   Tom\* Hyrum    |      Tom, Spencer       |         Tom\* Hyrum          |     Spencer      |          |
+|  6:00 - 6:59 PM  |      Tom, Spencer       |   Tom\* Hyrum    |      Tom, Spencer       |         Tom\* Hyrum          |     Spencer      |          |
 
 \*Online Only, \*\*Starts 9:30, \*\*\*Starts 3:30
 
