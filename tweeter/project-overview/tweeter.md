@@ -66,8 +66,8 @@ For milestone 2 to milestone 4 you will be implementing a core set of features f
 **And status related requirements:**
 
 1. A signed in user can post a status. The system will then add that newly created status to the feeds of all of the author’s followers.
-1. A signed in user can view all statuses of the users they follow merged into one list, sorted from newest to oldest. We call this list of statuses the user’s feed and should be the default view of the application for a signed in user.
-1. A user can view all statuses posted by a given user, sorted from newest to oldest. We call this list of statuses a user’s story and can be reached by clicking on a “mention” link (@…).
+1. A signed in user can view all statuses of the users they follow merged into one list, sorted from newest to oldest. We call this list of statuses the user’s feed. It should be the default view of the application for a signed in user.
+1. A user can view all statuses posted by a given user, sorted from newest to oldest. We call this list of statuses a user’s story. It can be reached by clicking on a “mention” link (@…).
 
 **And following/followers related requirements:**
 
