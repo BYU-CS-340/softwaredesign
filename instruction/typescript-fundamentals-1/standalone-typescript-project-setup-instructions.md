@@ -26,7 +26,7 @@ npm is already installed on your computer.
     ```
 1. Add other compilerOptions settings as desired
    - For example, if you want to use process.argv for arguments, you will want to make sure you have "types": ["node"] as well in tsconfig.json
-   - Also, if you have a red squiggly around outDir, that means you need to add a rootDir as well. If your code is in a file called src, then you can put "rootDir": "src"
+   - Also, if you have a red squiggly around outDir, that means you need to add a rootDir as well. If your code is in a package called src, then you can put "rootDir": "src"
 
 **Note:** If you do not include these steps, ts-node will use reasonable defaults when running your code.
 
