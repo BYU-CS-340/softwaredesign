@@ -24,7 +24,8 @@ npm is already installed on your computer.
     "sourceMap": true,
     "outDir": "dist",
     ```
-1. Add other compilerOptions settings as desired 
+1. Add other compilerOptions settings as desired
+   - For example, if you want to use process.argv for arguments, you will want to make sure you have "types": ["node"] as well in tsconfig.json
 
 **Note:** If you do not include these steps, ts-node will use reasonable defaults when running your code.
 
