@@ -17,3 +17,5 @@ Software Architecture Quiz
 ## Lecture Slids/Notes/Files
 
 [Software Architecture - Slides](https://docs.google.com/presentation/d/1gcA1Tdvzk_6zM2xqHZdg60f53IF3O2FX0daFfi7Yz8M/edit?usp=sharing)
+
+[Dr. Rodham Software Architecture Slides](https://docs.google.com/presentation/d/1w9qGuk8kTaupFWLl4wOkuqW5Zi1e8bD7ukfIBgdmQ5k/edit?usp=sharing)
