@@ -32,6 +32,7 @@ Topic: React.js (as an approach to UI programming)
 - Traditional web app vs. Single Page Application (SPA)
 - React Hooks
     - Know what each of these is for: `useState`, `useRef`, `useEffect`, `useMemo`, `useCallback`, `useContext`
+    - Know how to create and use hooks
 - React Router
 
 Topic: UML class and sequence diagrams
@@ -42,6 +43,7 @@ Topic: UML class and sequence diagrams
 Topic: Software architecture, layers
 - What is software architecture?
 - Name some benefits of organizing software into layers.
+- How does layered architecture relate to dependencies?
 
 Topic: Design patterns
 - Tip: a good way to learn/study design patterns is to focus on:
