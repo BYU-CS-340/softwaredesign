@@ -27,6 +27,8 @@ npm is already installed on your computer.
 1. Add other compilerOptions settings as desired
    - For example, if you want to use process.argv for arguments, you will want to make sure you have "types": ["node"] as well in tsconfig.json
    - Also, if you have a red squiggly around outDir, that means you need to add a rootDir as well. If your code is in a package called src, then you can put "rootDir": "src"
+   - If you are getting the error: `fs has no default export` when trying to import fs from "fs", then make sure you have Esmoduleinterop uncommented and set to true
+   - If when you try to run your code and you get other errors such as stating something about strict or verbatumModuleSyntax, go ahead and comment out all the other default configuraitons in tsconfig (leaving target, module, sourceMap, outDir, rootDir, types, and esmoduleinterop) and it should resolve those issues
 
 **Note:** If you do not include these steps, ts-node will use reasonable defaults when running your code.
 
