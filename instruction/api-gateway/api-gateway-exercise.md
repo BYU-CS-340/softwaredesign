@@ -81,7 +81,7 @@ The Lambda/IAM exercise has been completed.
 1. Do an external test of the /sendemail endpoint.
     - Using Curl, Postman, or an equivalent tool, call the web API from outside the AWS environment.  Curl is a command-line program that constructs and sends HTTP requests. Postman is a GUI-based tool that does the same thing.  It supports command-line or GUI.
     - To use Curl, do the following:
-        - Try running the "curl" command in a shell.  If not installed, download it from https://curl.haxx.se/download.htmlLinks to an external site.
+        - Try running the "curl" command in a shell.  If not installed, download it from https://curl.haxx.se/download.html
         - Put the request body to send into a text file, e.g., data.txt
         - Run the following curl command to call the web API:
             ```
