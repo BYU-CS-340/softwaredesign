@@ -11,4 +11,4 @@ Read the [Milestone 3: Documents](/tweeter/milestone-3/milestone-3-docs.md) spec
 - [Client Architecture Diagram](/tweeter/milestone-3/ClientFolloweesArchitectureDiagram-M3.pdf)
 - [Server Architecture Diagram](/tweeter/milestone-3/ServerArchitectureDiagram-M3.pdf)
 - [Milestone 3 Tips](https://docs.google.com/presentation/d/15DCdIi1JboRJlBfnzY8TDpuUs_GuJclhHtW6F6l3gMI/edit?usp=sharing)
-- [Best Practices for Programming with AI Agents: Getting Started with Task Delegation](/instruction/ai-programming/Best_Practices_for_Programming_with_AI_Agents-Getting_Started_with_Task_Delegation.pdf?raw=1)
+- [Best Practices for Programming with AI Agents: Getting Started with Task Delegation](https://raw.githubusercontent.com/BYU-CS-340/softwaredesign/main/instruction/ai-programming/Best_Practices_for_Programming_with_AI_Agents-Getting_Started_with_Task_Delegation.pdf)
