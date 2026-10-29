@@ -88,9 +88,7 @@ Make sure that your register lambda also has full access to S3 by going to confi
 
 ## Passoff
 
-- **Pass off your project with a TA by the due date at the end of TA hours (you must be in the pass off queue 1 hour before the end of TA hours to guarantee pass off)**
-- You can only passoff once.
-- If you passoff before the passoff day, you will get an additional 4% of extra credit in this assignment
+Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
 ## Submission
 
