@@ -55,9 +55,9 @@ This late policy does not apply to quizzes. Quizzes may not be taken late becaus
 - Pass off your project with a TA by the due date before TA's are off for the day
 - You can only passoff once (We are too busy to give multiple attempts. Any problems, you get docked points)
 - If you passoff before the passoff day, you will get an additional 4% of extra credit for this assignment
-- If you are on the pass off queue 1 hour before the TA Office closes and you do not get helped, you can come in the next and you are guaranteed to be graded as if you passed off the prior day
+- If you are on the pass off queue 1 hour before the TA Office closes and aren't helped in time, you can come in the next day and are guaranteed to be graded as if you passed off the prior day.
   - This means that if the due date was due Tuesday, and you were on the queue an hour before it closed on Tuesday and don't get helped, then come back and get the passoff done on Wednesday, then you will still be given full points as if you had done the passoff on Tuesday
-  - On the other hand, if you were on the queue an hour before it closed on Tuesday, but come in and do the passoff on Thursday, you will be given -10% because Wenesday was counted as Tuesday, and Thursday is counted as Wendesday
+  - On the other hand, if you were on the queue an hour before it closed on Tuesday, but come in and do the passoff on Thursday, you will be given -10% because Wednesday was counted as Tuesday, and Thursday is counted as Wednesday
 
 ## Resubmission Policy
 
