@@ -79,7 +79,9 @@ Create and submit the document described in [Milestone 2 Part C: Documents](./mi
 
 ## Passoff
 
-Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
+- **Pass off your project with a TA by the due date at the end of TA hours (you must be in the pass off queue 1 hour before the end of TA hours to guarantee pass off)**
+- You can only passoff once.
+- If you passoff before the passoff day, you will get an additional 4% of extra credit in this assignment
 
 ## Rubric
 

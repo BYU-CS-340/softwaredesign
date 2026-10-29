@@ -18,7 +18,7 @@ When you are through, you should not be accessing dummy data directly from your 
 
 Since there are 14 lambdas in this milestone (and 16 in milestone 4B), manually deploying them each time you create or update one will become tedious. In general, manually creating and configuring resources through the AWS web console is tedious and error-prone. Therefore, we recommend that you automate these tasks as described in [Automating AWS Resource Management](./automating-aws-resource-management.md). Doing so will be educational and save you a lot of time.
 
-This [diagram](/tweeter/milestone-3/ClientFolloweesArchitectureDiagram-M3.pdf) shows what your client architecture should look like when you are through with this milestone, using the followees feature as an example. Compare this to the [milestone 2A diagram](/tweeter/milestone-2a/ClientFolloweesArchitectureDiagram-M2A.pdf) to see the changes. This [diagram](/tweeter/milestone-3/ServerArchitectureDiagram-M3.pdf) shows what your server architecture should look like.
+This [diagram](/tweeter/milestone-3/ClientFolloweesArchitectureDiagram-M3.pdf) shows what your client architecture should look like when you are through with this milestone, using the followees feature as an example. Compare this to the [milestone 2A diagram](/tweeter/milestone-2a/ClientFolloweesArchitectureDiagram-M2A.pdf) to see the changes. This [diagram](/tweeter/milestone-3/ServerArchitectureDiagram-M3.pdf) shows what your server architecture should look like. 
 
 ## Design and Implementation
 
@@ -130,7 +130,7 @@ export class ClientCommunicator {
   public async doPost<REQ extends TweeterRequest, RES extends TweeterResponse>(
     req: REQ | undefined,
     endpoint: string,
-    headers?: Headers,
+    headers?: Headers
   ): Promise<RES> {
     if (headers && req) {
       headers.append("Content-type", "application/json");
@@ -146,7 +146,7 @@ export class ClientCommunicator {
     const params = this.getParams(
       "POST",
       headers,
-      req ? JSON.stringify(req) : req,
+      req ? JSON.stringify(req) : req
     );
 
     console.log(`Fetching '${url}' with params '${JSON.stringify(params)}'`);
@@ -167,7 +167,7 @@ export class ClientCommunicator {
       throw new Error(
         `Client communicator ${params.method} failed:\n${
           (error as Error).message
-        }`,
+        }`
       );
     }
   }
@@ -179,7 +179,7 @@ export class ClientCommunicator {
   private getParams(
     method: string,
     headers?: Headers,
-    body?: BodyInit,
+    body?: BodyInit
   ): RequestInit {
     const params: RequestInit = { method: method };
 
@@ -215,7 +215,7 @@ export class ServerFacade {
   private clientCommunicator = new ClientCommunicator(this.SERVER_URL);
 
   public async getMoreFollowees(
-    request: PagedUserItemRequest,
+    request: PagedUserItemRequest
   ): Promise<[User[], boolean]> {
     const response = await this.clientCommunicator.doPost<
       PagedUserItemRequest,
@@ -284,7 +284,9 @@ Create and submit the documents described in [Milestone 3: Documents](./mileston
 
 ## Passoff
 
-Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
+- Pass off your project with a TA by the due date at the end of TA hours (you must be in the pass off queue 1 hour before the end of TA hours to guarantee pass off)
+- You can only pass off once.
+- If you pass off before the pass off day, you will get an additional 4% of extra credit in this assignment
 
 ## Passoff Rubric
 

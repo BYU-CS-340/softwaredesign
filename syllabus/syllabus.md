@@ -50,15 +50,6 @@ Assignments may not be submitted for credit after the last day of class.
 
 This late policy does not apply to quizzes. Quizzes may not be taken late because we make the answers available immediately after the due date. However, we drop your lowest quiz score, so a missed quiz will just become the quiz we drop.
 
-## Passoff Policy
-
-- Pass off your project with a TA by the due date before TA's are off for the day
-- You can only passoff once (We are too busy to give multiple attempts. Any problems, you get docked points)
-- If you passoff before the passoff day, you will get an additional 4% of extra credit for this assignment
-- If you are on the pass off queue 1 hour before the TA Office closes and you do not get helped, you can come in the next and you are guaranteed to be graded as if you passed off the prior day
-  - This means that if the due date was due Tuesday, and you were on the queue an hour before it closed on Tuesday and don't get helped, then come back and get the passoff done on Wednesday, then you will still be given full points as if you had done the passoff on Tuesday
-  - On the other hand, if you were on the queue an hour before it closed on Tuesday, but come in and do the passoff on Thursday, you will be given -10% because Wenesday was counted as Tuesday, and Thursday is counted as Wendesday
-
 ## Resubmission Policy
 
 For in-class exercises and other assignments that do not require a passoff, if you lose points due to an incorrect submission, the TAs will leave feedback suggesting how to improve your score. If the assignment is redone and resubmitted within one week of the assignment being graded, you can get back up to half of the points that you lost. However, if your initial submission was late, the original late penalty will still apply.
@@ -77,19 +68,19 @@ For project **milestones 3 and 4 only**, the allowed AI usage level is 3: Partne
 
 Your grade in this class is determined by the following categories and weights:
 
-| Category     | Percentage |
-| :----------- | :--------- |
-| Image Editor | 2%         |
-| Milestone 1  | 4%         |
-| Milestone 2  | 18%        |
-| Milestone 3  | 5%         |
-| Milestone 4  | 9%         |
-| Quizzes      | 5%         |
-| Midterm 1    | 12%        |
-| Midterm 2    | 12%        |
-| Final Exam   | 18%        |
-| Exercises    | 15%        |
-| **Total**    | **100%**   |
+| Category      | Percentage |
+| :------------ | :--------- |
+| Image Editor  | 2%         |
+| Milestone 1   | 4%         |
+| Milestone 2   | 18%        |
+| Milestone 3   | 5%         |
+| Milestone 4   | 9%         |
+| Quizzes       | 5%         |
+| Midterm 1     | 12%        |
+| Midterm 2     | 12%        |
+| Final Exam    | 18%        |
+| Exercises     | 15%        |
+| **Total**     | **100%**   |
 
 **You must earn at least 70% on Milestone 3, Milestone 4A, and Milestone 4B in order to pass this class.** This applies to each of the three individually — a score below 70% on any one of them means you will not receive a passing grade, even if your total score in the course would otherwise be 60% or higher.
 
