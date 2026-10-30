@@ -2,6 +2,17 @@
 
 > **AI usage for this milestone is Level 3 — Partner** (see the [AI Usage Level Definitions](https://cs.byu.edu/department/ai-policy)), an exception to the course default of Level 1.
 
+> [!WARNING]
+> **Before you start**
+>
+> If you haven't read Dr Wilkerson's AI Programming paper, please read it [here](../../instruction/ai-programming/ai-programming.md)!
+>
+> In addition, if you haven't put your code into a git repository, create a new repository on GitHub (making sure it is private, and have it not create a README.md file), and follow the steps suggested to connect your local code on your machine to GitHub.
+>
+> As a warning, we expect you to have at least 20 commits spaced out over at least 3-5 days, and an attribution log (Read Dr Wilkerson's AI Programming paper) filled out throughout the process of AI's contributions.
+>
+> Before starting work on Milestone 3, make sure you have taken care of all things above!
+
 ## Overview
 
 The Tweeter web application consists of 14 features. For this milestone, you will move the backend logic (the code that you should have placed in Service classes in milestone 2) into AWS using API Gateway and AWS Lambdas for all 14 features. To accomplish this, you will complete the following three major tasks:
@@ -18,7 +29,7 @@ When you are through, you should not be accessing dummy data directly from your 
 
 Since there are 14 lambdas in this milestone (and 16 in milestone 4B), manually deploying them each time you create or update one will become tedious. In general, manually creating and configuring resources through the AWS web console is tedious and error-prone. Therefore, we recommend that you automate these tasks as described in [Automating AWS Resource Management](./automating-aws-resource-management.md). Doing so will be educational and save you a lot of time.
 
-This [diagram](/tweeter/milestone-3/ClientFolloweesArchitectureDiagram-M3.pdf) shows what your client architecture should look like when you are through with this milestone, using the followees feature as an example. Compare this to the [milestone 2A diagram](/tweeter/milestone-2a/ClientFolloweesArchitectureDiagram-M2A.pdf) to see the changes. This [diagram](/tweeter/milestone-3/ServerArchitectureDiagram-M3.pdf) shows what your server architecture should look like. 
+This [diagram](/tweeter/milestone-3/ClientFolloweesArchitectureDiagram-M3.pdf) shows what your client architecture should look like when you are through with this milestone, using the followees feature as an example. Compare this to the [milestone 2A diagram](/tweeter/milestone-2a/ClientFolloweesArchitectureDiagram-M2A.pdf) to see the changes. This [diagram](/tweeter/milestone-3/ServerArchitectureDiagram-M3.pdf) shows what your server architecture should look like.
 
 ## Design and Implementation
 
@@ -130,7 +141,7 @@ export class ClientCommunicator {
   public async doPost<REQ extends TweeterRequest, RES extends TweeterResponse>(
     req: REQ | undefined,
     endpoint: string,
-    headers?: Headers
+    headers?: Headers,
   ): Promise<RES> {
     if (headers && req) {
       headers.append("Content-type", "application/json");
@@ -146,7 +157,7 @@ export class ClientCommunicator {
     const params = this.getParams(
       "POST",
       headers,
-      req ? JSON.stringify(req) : req
+      req ? JSON.stringify(req) : req,
     );
 
     console.log(`Fetching '${url}' with params '${JSON.stringify(params)}'`);
@@ -167,7 +178,7 @@ export class ClientCommunicator {
       throw new Error(
         `Client communicator ${params.method} failed:\n${
           (error as Error).message
-        }`
+        }`,
       );
     }
   }
@@ -179,7 +190,7 @@ export class ClientCommunicator {
   private getParams(
     method: string,
     headers?: Headers,
-    body?: BodyInit
+    body?: BodyInit,
   ): RequestInit {
     const params: RequestInit = { method: method };
 
@@ -215,7 +226,7 @@ export class ServerFacade {
   private clientCommunicator = new ClientCommunicator(this.SERVER_URL);
 
   public async getMoreFollowees(
-    request: PagedUserItemRequest
+    request: PagedUserItemRequest,
   ): Promise<[User[], boolean]> {
     const response = await this.clientCommunicator.doPost<
       PagedUserItemRequest,
@@ -284,9 +295,9 @@ Create and submit the documents described in [Milestone 3: Documents](./mileston
 
 ## Passoff
 
-- Pass off your project with a TA by the due date at the end of TA hours (you must be in the pass off queue 1 hour before the end of TA hours to guarantee pass off)
-- You can only pass off once.
-- If you pass off before the pass off day, you will get an additional 4% of extra credit in this assignment
+Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
+
+In addition, if you do not have 20 substantial commits (more than just adding white space and comments) you will have to meet with your professor for an oral interview on your code. Make sure you understand the code that your AI writes as you will want to be able to explain it during the passoff. 
 
 ## Passoff Rubric
 
