@@ -40,6 +40,7 @@ This list includes about half of the necessary endpoints. You will need to figur
   - Keep in mind that the asynchronous nature shown in the 2C diagram will still be present.
   - Don't forget to include how the API Gateway bridges the gap between your Client and Server objects
   - This diagram should start with the submitPost() call on your PostStatus component, and end with a displayInfoMessage() call on the component's listener.
+- Submit to Canvas your AI attribution log outlining what AI did to help you finish the milestone.
 
 ## Rubric
 
