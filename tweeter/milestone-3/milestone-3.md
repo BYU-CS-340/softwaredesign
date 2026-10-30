@@ -2,6 +2,16 @@
 
 > **AI usage for this milestone is Level 3 — Partner** (see the [AI Usage Level Definitions](https://cs.byu.edu/department/ai-policy)), an exception to the course default of Level 1.
 
+## Before you start
+
+If you haven't read Dr Wilkerson's AI Programming paper, please read it [here](../../instruction/ai-programming/ai-programming.md)!
+
+In addition, if you haven't put your code into a git repository, create a new repository on GitHub (making sure it is private, and have it not create a README.md file), and follow the steps suggested to connect your local code on your machine to GitHub.
+
+As a warning, we expect you to have at least 20 commits spaced out over at least 3-5 days, and an attribution log (Read Dr Wilkerson's AI Programming paper) filled out throughout the process of AI's contributions.
+
+Before starting work on Milestone 3, make sure you have taken care of all things above!
+
 ## Overview
 
 The Tweeter web application consists of 14 features. For this milestone, you will move the backend logic (the code that you should have placed in Service classes in milestone 2) into AWS using API Gateway and AWS Lambdas for all 14 features. To accomplish this, you will complete the following three major tasks:
@@ -285,6 +295,8 @@ Create and submit the documents described in [Milestone 3: Documents](./mileston
 ## Passoff
 
 Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
+
+In addition, if you do not have 20 substantial commits (more than just adding white space and comments) or cannot understand and explain your code, you will have to meet with your professor for an oral interview on your code.
 
 ## Passoff Rubric
 
