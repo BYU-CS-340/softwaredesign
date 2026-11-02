@@ -1,7 +1,7 @@
 # Project Milestone 2 Part B: Remove Code Duplication
 
 > **AI usage for this milestone is Level 1 — Reference** (see the [AI Usage Level Definitions](https://cs.byu.edu/department/ai-policy)), the course default: AI helps you learn, but it never sees your work.
-  
+
 For this milestone you will continue to work on the Tweeter UI. The starting point for this milestone is the code you ended up with after completing milestone 2A.
 
 ## Requirements
@@ -38,7 +38,7 @@ This [diagram](/tweeter/milestone-2b/PagedPresentersClassDiagram-M2B.pdf) will h
 Here are some (but maybe not all) specific areas of duplication that need to be addressed:
 
 - Every presenter defines a View interface to communicate with it's component or hook. These View interfaces might have
-operations in common (e.g., for displaying error messages or displaying informational messages). (hint: create a base View interface)
+  operations in common (e.g., for displaying error messages or displaying informational messages). (hint: create a base View interface)
 - Every Presenter contains a reference to its View (hint: inheritance)
 - The Presenter classes for the paging views (Feed, Story, Followers, Following) are almost identical, including their View interfaces. Use inheritance and generic types to remove this duplication as demonstrated in the video.
 - All presenters follow a common try/catch/display error structure. Use a function with function parameters to eliminate this duplication as demonstrated in the video.
@@ -52,9 +52,7 @@ Most of the view layer duplication was eliminated as part of the milestone 1 ass
 
 ## Passoff
 
-- **Pass off your project with a TA by the due date at the end of TA hours (you must be in the pass off queue 1 hour before the end of TA hours to guarantee pass off)**
-- You can only passoff once.
-- If you passoff before the passoff day, you will get an additional 4% of extra credit in this assignment
+Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
 ## Rubric
 

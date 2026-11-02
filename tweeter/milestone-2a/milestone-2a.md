@@ -1,8 +1,8 @@
 # Project Milestone 2 Part A: Layered Architecture
 
 > **AI usage for this milestone is Level 1 — Reference** (see the [AI Usage Level Definitions](https://cs.byu.edu/department/ai-policy)), the course default: AI helps you learn, but it never sees your work.
-  
-For this milestone you will continue to work on the Tweeter UI. The starting point for this milestone is the code you ended up with after completing milestone 1. You are welcome (but not required or expected) to improve the design of your UI, but if you modify it, make sure your user interface includes all views needed to meet the requirements documented in the "Requirements" section of the [Course Project](../project-overview/tweeter.md) overview. **This is to be the front-end of your application only**, so do not make any requests to backend AWS services.  Instead, your front-end application should have realistic dummy data that will later (i.e., in later milestones) be replaced with calls to such backend services.
+
+For this milestone you will continue to work on the Tweeter UI. The starting point for this milestone is the code you ended up with after completing milestone 1. You are welcome (but not required or expected) to improve the design of your UI, but if you modify it, make sure your user interface includes all views needed to meet the requirements documented in the "Requirements" section of the [Course Project](../project-overview/tweeter.md) overview. **This is to be the front-end of your application only**, so do not make any requests to backend AWS services. Instead, your front-end application should have realistic dummy data that will later (i.e., in later milestones) be replaced with calls to such backend services.
 
 Although your Tweeter UI should be fully functional, it does not have a proper layered architecture, and contains a lot of duplicated code. Both of these are big problems. Your assignment for this milestone is to refactor the provided code to have a proper layered architecture. In the next assignment (milestone 2B) you will eliminate code duplication--much of which will be created in this milestone (milestone 2A).
 
@@ -41,9 +41,9 @@ Your view layer (React components and hooks) should only contain code that direc
 
 ### Create an Application-Logic layer
 
-Create a layer of service classes that implement the program's "application logic".  In general, service classes can cache data, implement algorithms, or do whatever is needed to realize the program's non-user interface functionality. For this program, the "application logic" is the code that currently accesses dummy data and will eventually contact the server to send or receive data, and then pass data returned from the server up to the presenter layer.  For this milestone the services will just return the same hard-coded dummy data that is currently accessed from the view layer. In milestone 3, service classes will pass data to and retrieve data from the server.
+Create a layer of service classes that implement the program's "application logic". In general, service classes can cache data, implement algorithms, or do whatever is needed to realize the program's non-user interface functionality. For this program, the "application logic" is the code that currently accesses dummy data and will eventually contact the server to send or receive data, and then pass data returned from the server up to the presenter layer. For this milestone the services will just return the same hard-coded dummy data that is currently accessed from the view layer. In milestone 3, service classes will pass data to and retrieve data from the server.
 
-For this program there are 14 different kinds of requests the client sends to the server. This does not mean you should create 14 different service classes. Rather, you should group related requests into the same service class.  For example, you might have a UserService that handles all user-related requests, a StatusService that handles all status-related requests and a FollowService that handles all follow-related requests.
+For this program there are 14 different kinds of requests the client sends to the server. This does not mean you should create 14 different service classes. Rather, you should group related requests into the same service class. For example, you might have a UserService that handles all user-related requests, a StatusService that handles all status-related requests and a FollowService that handles all follow-related requests.
 
 ### Create a Presenter layer
 
@@ -63,9 +63,7 @@ Add public methods to your presenter classes as needed to allow views to call th
 
 ## Passoff
 
-- Pass off your project with a TA by the due date before TA's are off for the day (you must be in the pass off queue 1 hour before they are off to guarantee same-day pass off)
-- You can only passoff once.
-- If you passoff before the passoff day, you will get an additional 4% of extra credit in this assignment
+Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
 ## Rubric
 
