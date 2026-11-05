@@ -73,6 +73,8 @@ Ideally, test cases will work as you add features. In Milestone 3, you created t
 
 Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
+Remember to have at least 20 [substantial commits](../milestone-3/milestone-3.md#passoff) before the passoff. 
+
 ## Debugging
 
 At this point you should be pretty good at debugging your code, but don't forget about [this article](../milestone-3/debugging-tips.md) if you need any tips.
