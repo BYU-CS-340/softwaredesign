@@ -15,8 +15,9 @@ With SAM it is possible to do the Tweeter project without ever manually creating
 1. In the `tweeter-server` directory create a file named `samconfig.toml` containing [this text](./tweeter-samconfig.md). `samconfig.toml` contains some properties telling SAM how to deploy the project's resources to AWS. In `samconfig.toml` modify the `s3_bucket` property to be the name of the S3 bucket you created above. Also, modify the `region` property to match the region in which SAM should create resources.
 1. In the `tweeter-server` directory create a sub-directory named `layer`. `layer` will contain the code for your project's Lambda layer.
 1. Within the `tweeter-server/layer` directory create a sub-directory named `nodejs`.
-1. Copy the `tweeter-server/node_modules` directory into the `tweeter-server/layer/nodejs` directory. Be sure to copy the `node_modules` directory itself, not just its contents.
+1. Copy the `tweeter-server/node_modules` directory into the `tweeter-server/layer/nodejs` directory. Be sure to copy the `node_modules` directory itself, not just its contents. 
    - Each time you change `tweeter-server`'s dependencies, you will need to re-copy `tweeter-server/node_modules` into `tweeter-server/layer/nodejs` (i.e., the layer needs to be updated whenever the contents of `node_modules` changes).
+   - Do not try to use a symbolic link. SAM will fail to deploy the resources when using a symbolic link. 
 
 ### Development with SAM
 
