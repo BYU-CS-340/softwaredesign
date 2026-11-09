@@ -49,7 +49,7 @@ This Primary Key lets you query the index by "followee_handle" and sort the resu
 You may use these resources for reference:
 - [Visitor Sample Code](https://github.com/BYU-CS-340/dynamodb-samples-typescript.git) from class
 - [DynamoDB documentation](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/dynamodb/) for how to put, get, update, and delete items
-- [AWS JavaScript SKD documentation](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/)
+- [AWS JavaScript SDK documentation](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/)
 
 
 <br>
