@@ -12,6 +12,7 @@ In part one of this assignment, you will improve the provided Tweeter UI by addi
 
 1. Download the [tweeter-web-starter](./tweeter-web-starter.zip) zip file.
 1. Unzip the file into a parent directory of your choice.
+1. Make this folder a [GitHub repository](./git-repo-setup.md).
 1. Open the project in VS Code and follow the instructions in the Readme to compile and run the project.
 1. Create a StatusItem component (similar to the UserItem component created in the video) to eliminate duplication in the Feed and Story UI.
 1. Create an AuthenticationFields component, as described in the video, to remove the duplicate UI logic for displaying the Alias and Password fields in the Login and Register components.
