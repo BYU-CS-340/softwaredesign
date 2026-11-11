@@ -90,6 +90,8 @@ Make sure that your register lambda also has full access to S3 by going to confi
 
 Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
+Remember to have at least 20 [substantial commits](../milestone-3/milestone-3.md#passoff) before the passoff. 
+
 ## Submission
 
 You do not need to submit any files for this milestone, just passoff with a TA before the due date as stated above.

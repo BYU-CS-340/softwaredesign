@@ -75,7 +75,7 @@ In a beforeAll function of your test, specify the values the hook returns like t
 
 ## Milestone Report
 
-Create and submit the document described in [Milestone 2 Part C: Documents](./milestone-2c-docs.md).
+Create and submit the document described in [Milestone 2 Part C: Documents](./milestone-2c-docs.md). This document can be submitted before or after the passoff.
 
 ## Passoff
 

@@ -71,7 +71,11 @@ Ideally, test cases will work as you add features. In Milestone 3, you created t
 
 ## Passoff
 
+Before the passoff, please submit your attribution log to the Milestone 4B Documents assignment.
+
 Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
+
+Since this milestone is a bit smaller than 3 and 4A, we won't require a specific number of [substantial commits](../milestone-3/milestone-3.md#passoff), but during the passoff, the TAs will look at your git history, and we expect the work to be done in small increments just like those other milestones.
 
 ## Debugging
 

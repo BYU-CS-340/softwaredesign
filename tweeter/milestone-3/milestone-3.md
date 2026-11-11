@@ -291,13 +291,13 @@ Please make sure you've gone over and tried at least some of these tips before a
 
 ## Milestone Report
 
-Create and submit the documents described in [Milestone 3: Documents](./milestone-3-docs.md).
+Create and submit the documents described in [Milestone 3: Documents](./milestone-3-docs.md). This document can be submitted before or after the passoff.
 
 ## Passoff
 
 Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
-In addition, if you do not have 20 substantial commits (more than just adding white space and comments) you will have to meet with your professor for an oral interview on your code. Make sure you understand the code that your AI writes as you will want to be able to explain it during the passoff. 
+In addition, if you do not have 20 substantial commits (more than just adding white space and comments) you will have to meet with your professor for an oral interview on your code. Make sure you understand the code that your AI writes as you will want to be able to explain it during the passoff.
 
 ## Passoff Rubric
 
