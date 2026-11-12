@@ -95,6 +95,7 @@ Remember to have at least 20 [substantial commits](../milestone-3/milestone-3.md
 ## Submission
 
 You do not need to submit any files for this milestone, just passoff with a TA before the due date as stated above.
+NOTE: This is incorrect and will be updated with a requirement to submit your attribution log (see Dr. Wilkerson's paper)
 
 ## Debugging
 
