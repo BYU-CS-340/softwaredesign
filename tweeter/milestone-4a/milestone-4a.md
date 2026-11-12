@@ -86,15 +86,15 @@ Permissions -> Object Ownership needs to allow ACLs.
 
 Make sure that your register lambda also has full access to S3 by going to configuration->permissions and viewing the lambda role.
 
+## Submission
+
+Please submit your [attribution log](../milestone-3/milestone-3.md) to the Milestone 4A Documents assignment on Canvas before doing the Passoff.
+
 ## Passoff
 
 Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
 Remember to have at least 20 [substantial commits](../milestone-3/milestone-3.md#passoff) before the passoff.
-
-## Submission
-
-Please submit your [attribution log](../milestone-3/milestone-3.md) to the Milestone 4A Documents assignment on Canvas.
 
 ## Debugging
 
