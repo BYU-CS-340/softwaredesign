@@ -69,6 +69,10 @@ Ideally, test cases will work as you add features. In Milestone 3, you created t
 
 [Some gotchas for AWS and tips to avoid getting charged $$$](../project-overview/aws-account.md)
 
+## Submission
+
+Please submit your [attribution log](../milestone-3/milestone-3.md) to the Milestone 4B Documents assignment on Canvas before doing the Passoff.
+
 ## Passoff
 
 Before the passoff, please submit your attribution log to the Milestone 4B Documents assignment.
