@@ -22,15 +22,25 @@ This file contains the code that we want to test. The code is correct, so unit t
 
 This file contains code that is full of bugs. DO NOT FIX THE BUGS. The goal of this exercise is not to correct the code, but to write tests that do not run the buggy code at all.
 
+## Compiling Steps
+
+In order for this to work in Typescript 7, make sure to follow these steps:
+
+- In tsconfig.json, change rootDir to "." and outside of compilerOptions add `"include": ["src/**/*.ts", "test/**/*.ts"]`, this will allow your code to compile both the source code and the test code at once
+- Make sure to import describe and other jest key words from `"@jest/globals"`
+- Make sure to import mock and other mockito key words from `"@typestrong/ts-mockito"`
+- Now you can build the code and tests with npx tsc -p tsconfig.json, and then run the code with npm run test
+  - Alternatively, you can add a new npm script like so: `"build": "tsc -p tsconfig.json"`, and then you can adjust the test script to be `"test": "npm run build && jest"` so you only have to run one command instead of two.
+
 ## Steps
 
 1. Break the hardcoded dependency that Client has on Service by creating a factory method and replacing all of the calls to new Service() with a call to the factory method.
-    - There are TODOs in the Client class that tell you where you need to do this.
-    - **Note:** A factory method is simply a method that creates and returns an instance of an object.
+   - There are TODOs in the Client class that tell you where you need to do this.
+   - **Note:** A factory method is simply a method that creates and returns an instance of an object.
 1. Modify the setup method in Client.test to use ts-mockito to mock the Service class and spy on the Client class.
-    - There are TODOs that tell you what you need to do.
+   - There are TODOs that tell you what you need to do.
 1. Modify the tests in Client.test to use the ts-mockito framework to write effective unit tests on the Client class.
-    - Complete all of the TODOs in the tests.
+   - Complete all of the TODOs in the tests.
 
 ## Submission
 
