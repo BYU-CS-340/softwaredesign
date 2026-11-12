@@ -77,6 +77,10 @@ Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-poli
 
 Since this milestone is a bit smaller than 3 and 4A, we won't require a specific number of [substantial commits](../milestone-3/milestone-3.md#passoff), but during the passoff, the TAs will look at your git history, and we expect the work to be done in small increments just like those other milestones.
 
+## Submission
+
+Please submit your [attribution log](../milestone-3/milestone-3.md) to the Milestone 4B Documents assignment on Canvas.
+
 ## Debugging
 
 At this point you should be pretty good at debugging your code, but don't forget about [this article](../milestone-3/debugging-tips.md) if you need any tips.
