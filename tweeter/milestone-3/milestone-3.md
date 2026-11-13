@@ -116,7 +116,7 @@ Configure each endpoint. If you are using SAM, this is already done (although th
 
 Connect each Web API endpoint to one of your lambdas and test each endpoint from API Gateway before attempting to access it from your web application.
 
-[This video](https://youtu.be/OXAgXWiz7e0) shows you how to configure API Gateway with the AWS Console. You can also refer to the API Gateway in-class exercise.
+[This video](https://youtu.be/OXAgXWiz7e0) shows you how to configure API Gateway with the AWS Console. You can also refer to the [API Gateway in-class exercise](https://github.com/BYU-CS-340/softwaredesign/blob/main/instruction/api-gateway/api-gateway-exercise.md).
 
 ## Call Web API Endpoints from Your Client
 
