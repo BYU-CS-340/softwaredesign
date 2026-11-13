@@ -96,8 +96,6 @@ Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-poli
 
 Remember to have at least 20 [substantial commits](../milestone-3/milestone-3.md#passoff) before the passoff.
 
-NOTE: This is incorrect and will be updated with a requirement to submit your attribution log (see Dr. Wilkerson's paper)
-
 ## Debugging
 
 Also check out [this page](../milestone-3/debugging-tips.md) for network debugging tips.
