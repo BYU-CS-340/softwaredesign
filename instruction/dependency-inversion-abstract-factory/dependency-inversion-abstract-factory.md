@@ -22,4 +22,6 @@ Dependency Inversion and Abstract Factory Quiz
 
 [Dependency Inversion Slides](https://docs.google.com/presentation/d/1xS14GJraQ-IYEHKlecBxo1lAdL5LCH_UM6JBLRhEMEE/edit?usp=sharing)
 
+[Dependency Inversion Slides (Rodham)](./DependencyInversion.pptx)
+
 [Abstract Factory Slides](https://docs.google.com/presentation/d/1rkH64pEhf354nDjwmPUGOPRoQ1v8vJ7keOynFfHEH8U/)
