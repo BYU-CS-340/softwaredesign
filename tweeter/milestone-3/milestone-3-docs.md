@@ -17,7 +17,8 @@ As part of Milestone 3 you were required to create your Tweeter Web API in AWS A
 This list includes about half of the necessary endpoints. You will need to figure out the other half on your own. When defining your API in the API Gateway, please do the following:
 
 - Provide a description for each API method that you define. To do this:
-  - For each method:
+  - Use SAM or Terraform
+  - Alternatively, if you enjoy monotonous tasks, for each method:
     - In the Resources tab, select the method.
     - In the upper right-hand corner of the console, click the grey book icon.
     - Edit the description
