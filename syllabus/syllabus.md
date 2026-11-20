@@ -59,6 +59,24 @@ This late policy does not apply to quizzes. Quizzes may not be taken late becaus
   - This means that if the due date was due Tuesday, and you were on the queue an hour before it closed on Tuesday and don't get helped, then come back and get the passoff done on Wednesday, then you will still be given full points as if you had done the passoff on Tuesday
   - On the other hand, if you were on the queue an hour before it closed on Tuesday, but come in and do the passoff on Thursday, you will be given -10% because Wednesday was counted as Tuesday, and Thursday is counted as Wednesday
 
+## Git Requirements
+
+These requirements apply to **Milestones 3, 4A, and 4B**. During each passoff, the TAs will look at your git history to check that you met them.
+
+- **Use a private GitHub repository.** Before you start Milestone 3, if your code isn't in a git repository yet, create a new private repository on GitHub, then follow the steps GitHub suggests to connect the code on your machine to it.
+- **Commit in small increments.** Work should be committed a little at a time as you go, such as after finishing one function or test.
+- **Spread your work out.** Your commits for each milestone should be spaced out over at least 3-5 days.
+- **Make your commits substantial.** A substantial commit is more than just adding white space or comments.
+- **Have enough commits.** The number of substantial commits required depends on the milestone:
+
+| Milestone | Substantial commits required |
+| :-------- | :--------------------------- |
+| 3         | At least 20                  |
+| 4A        | At least 20                  |
+| 4B        | No specific number           |
+
+If you do not have the required number of substantial commits, you will have to meet with your professor for an oral interview on your code. Make sure you understand all the code you submit; you will need to be able to explain it during the passoff.
+
 ## Resubmission Policy
 
 For in-class exercises and other assignments that do not require a passoff, if you lose points due to an incorrect submission, the TAs will leave feedback suggesting how to improve your score. If the assignment is redone and resubmitted within one week of the assignment being graded, you can get back up to half of the points that you lost. However, if your initial submission was late, the original late penalty will still apply.

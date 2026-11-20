@@ -2,14 +2,17 @@
 
 > **AI usage for this milestone is Level 3 — Partner** (see the [AI Usage Level Definitions](https://cs.byu.edu/department/ai-policy)), an exception to the course default of Level 1.
 
+> [!IMPORTANT]
+> **Git requirements:** This milestone has git requirements that are checked at the passoff. Read the **[Git Requirements in the syllabus](../../syllabus/syllabus.md#git-requirements)** before you start.
+
 > [!WARNING]
 > **Before you start**
 >
 > If you haven't read Dr Wilkerson's AI Programming paper, please read it [here](../../instruction/ai-programming/ai-programming.md)!
 >
-> In addition, if you haven't put your code into a git repository, create a new repository on GitHub (making sure it is private, and have it not create a README.md file), and follow the steps suggested to connect your local code on your machine to GitHub.
+> Set up your private GitHub repository as described in the [Git Requirements](../../syllabus/syllabus.md#git-requirements).
 >
-> As a warning, we expect you to have at least 20 commits spaced out over at least 3-5 days, and an attribution log (Read Dr Wilkerson's AI Programming paper) filled out throughout the process of AI's contributions.
+> We also expect you to fill out an attribution log (Read Dr Wilkerson's AI Programming paper) throughout the process of AI's contributions.
 >
 > Before starting work on Milestone 3, make sure you have taken care of all things above!
 
@@ -297,7 +300,7 @@ Create and submit the documents described in [Milestone 3: Documents](./mileston
 
 Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
-In addition, if you do not have 20 substantial commits (more than just adding white space and comments) you will have to meet with your professor for an oral interview on your code. Make sure you understand the code that your AI writes as you will want to be able to explain it during the passoff.
+The TAs will also check your git history against the [Git Requirements](../../syllabus/syllabus.md#git-requirements).
 
 ## Passoff Rubric
 
