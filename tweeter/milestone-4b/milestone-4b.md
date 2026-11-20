@@ -2,6 +2,9 @@
 
 > **AI usage for this milestone is Level 3 — Partner** (see the [AI Usage Level Definitions](https://cs.byu.edu/department/ai-policy)), an exception to the course default of Level 1.
 
+> [!IMPORTANT]
+> **Git requirements:** This milestone has git requirements that are checked at the passoff. Read the **[Git Requirements in the syllabus](../../syllabus/syllabus.md#git-requirements)** before you start.
+
 In this milestone you will implement the rest of your server and complete all of the functionality described in the [Course Project](../project-overview/tweeter.md) overview, including the requirements for authentication tokens and the handling of passwords, using DynamoDB to persist data rather than using hard-coded dummy data, and uploading user profile images to S3.
 
 ## Populating Your Database With Test Data
@@ -79,7 +82,7 @@ Before the passoff, please submit your attribution log to the Milestone 4B Docum
 
 Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
-Since this milestone is a bit smaller than 3 and 4A, we won't require a specific number of [substantial commits](../milestone-3/milestone-3.md#passoff), but during the passoff, the TAs will look at your git history, and we expect the work to be done in small increments just like those other milestones.
+The TAs will also check your git history against the [Git Requirements](../../syllabus/syllabus.md#git-requirements).
 
 ## Debugging
 

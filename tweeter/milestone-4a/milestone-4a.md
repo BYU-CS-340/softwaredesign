@@ -2,6 +2,9 @@
 
 > **AI usage for this milestone is Level 3 — Partner** (see the [AI Usage Level Definitions](https://cs.byu.edu/department/ai-policy)), an exception to the course default of Level 1.
 
+> [!IMPORTANT]
+> **Git requirements:** This milestone has git requirements that are checked at the passoff. Read the **[Git Requirements in the syllabus](../../syllabus/syllabus.md#git-requirements)** before you start.
+
 In this milestone you will implement the rest of your server and complete all of the functionality described in the Course Project overview, including the requirements for authentication tokens and the handling of passwords, using DynamoDB to persist data rather than using hard-coded dummy data, and uploading user profile images to S3.
 
 ## Requirements
@@ -94,7 +97,7 @@ Please submit your [attribution log](../milestone-3/milestone-3.md) to the Miles
 
 Reference the policies on the [syllabus](../../syllabus/syllabus.md#passoff-policy)
 
-Remember to have at least 20 [substantial commits](../milestone-3/milestone-3.md#passoff) before the passoff.
+The TAs will also check your git history against the [Git Requirements](../../syllabus/syllabus.md#git-requirements).
 
 ## Debugging
 
